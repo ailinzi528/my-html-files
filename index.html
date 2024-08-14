@@ -5,8 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapbox GL JS with GeoJSON</title>
     <style>
-        body { margin: 0; padding: 0; }
-        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+        /* 定义弹窗内容的样式 */
+        .popup-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .popup-description {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .popup-image {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .popup-link {
+            margin-top: 10px;
+            display: block;
+            color: blue;
+            text-decoration: underline;
+        }
     </style>
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css' rel='stylesheet' />
 </head>
@@ -22,81 +48,71 @@
             container: 'map', // container ID
             style: 'mapbox://styles/ailinzi528/clzs9eijl00e001pibjwi5e0o', // Mapbox style URL
             center: [104.066, 30.650], // Initial center coordinates [lng, lat]
-            zoom: 12 // Initial zoom level
+            zoom: 12, // Initial zoom level
+            pitchWithRotate: false,  // 禁用通过旋转来倾斜地图
+            dragRotate: false,       // 禁用通过拖拽来旋转地图
+            maxPitch: 0              // 限制地图的最大倾斜角度为 0 度（即禁用3D视图）
         });
 
                 // 添加地图上的缩放和方向控制
         map.addControl(new mapboxgl.NavigationControl());
 
-
-        map.on('load', function () {
-            // Add a GeoJSON source containing your data
-            fetch('wts2024.geojson')
-                .then(response => response.json())
-                .then(data => {
-                    console.log('GeoJSON data loaded:', data);
-
-                    // Add the GeoJSON source to the map
-                    map.addSource('areas', {
-                        'type': 'geojson',
-                        'data': data
-                    });
-
-                    // Add a layer to visualize the polygons
-                    map.addLayer({
-                        'id': 'polygon-layer',
-                        'type': 'fill',
-                        'source': 'areas',
-                        'paint': {
-                            'fill-color': '#888888',
-                            'fill-opacity': 0.4
-                        },
-                        'filter': ['==', '$type', 'Polygon']
-                    });
-
-                    // Add a layer to visualize the points
-                    map.addLayer({
-                        'id': 'point-layer',
-                        'type': 'circle',
-                        'source': 'areas',
-                        'paint': {
-                            'circle-radius': 6,
-                            'circle-color': '#007cbf'
-                        },
-                        'filter': ['==', '$type', 'Point']
-                    });
-
-                    // Add popup functionality
-                    map.on('click', 'point-layer', function (e) {
-                        const coordinates = e.features[0].geometry.coordinates.slice();
-                        const { name, img, description } = e.features[0].properties;
-
-                        const popupContent = `
-                            <h3>${name}</h3>
-                            <p>${description}</p>
-                            <img src="${img}" alt="${name}" style="width:100%; height:auto;" />
-                        `;
-
-                        new mapboxgl.Popup()
-                            .setLngLat(coordinates)
-                            .setHTML(popupContent)
-                            .addTo(map);
-                    });
-
-                    // Change the cursor to a pointer when over a point
-                    map.on('mouseenter', 'point-layer', function () {
-                        map.getCanvas().style.cursor = 'pointer';
-                    });
-
-                    // Change it back to the default cursor when not over a point
-                    map.on('mouseleave', 'point-layer', function () {
-                        map.getCanvas().style.cursor = '';
-                    });
-                })
-                .catch(error => {
-                    console.error('Error loading GeoJSON:', error);
+    
+    map.on('load', function() {
+        fetch('wts2024.geojson')
+            .then(response => response.json())
+            .then(data => {
+                map.addSource('geojson-points', {
+                    'type': 'geojson',
+                    'data': data
                 });
-        });
+
+                map.addLayer({
+                    'id': 'points',
+                    'type': 'circle',
+                    'source': 'geojson-points',
+                    'paint': {
+                        'circle-color': '#FF5722',
+                        'circle-radius': 8,
+                        'circle-opacity': 0 // 设置透明度为0
+                    }
+                });
+
+                map.on('click', 'points', function(e) {
+                    const coordinates = e.features[0].geometry.coordinates.slice();
+                    const description = e.features[0].properties.description || '';
+                    const imageUrl = e.features[0].properties.img || '';
+                    const link = e.features[0].properties['3_link'] || '#';
+                    const name = e.features[0].properties['0_name'] || '#';
+
+
+                    const popupContent = `
+                        <div>
+                            <p class="popup-title">${name}</p>
+                            ${description ? `<p class="popup-description">${description}</p>` : ''}
+                            ${imageUrl ? `<img class="popup-image" src="${imageUrl}" alt="Image">` : ''}
+                            <a class="popup-link" href="${link}" target="_blank">查看大图</a>
+                        </div>`;
+
+                    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                    }
+
+                    new mapboxgl.Popup()
+                        .setLngLat(coordinates)
+                        .setHTML(popupContent)
+                        .addTo(map);
+                });
+
+                map.on('mouseenter', 'points', function() {
+                    map.getCanvas().style.cursor = 'pointer';
+                });
+
+                map.on('mouseleave', 'points', function() {
+                    map.getCanvas().style.cursor = '';
+                });
+            });
+    });
     </script>
 </body>
 </html>
