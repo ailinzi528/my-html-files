@@ -7,6 +7,29 @@
     <style>
         body, html { margin: 0; padding: 0; height: 100%; }
         #map { width: 100%; height: 100vh; }
+
+
+        /* 自定义弹窗样式 */
+        .mapboxgl-popup {
+            background: rgba(255, 0, 0, 0.5); /* 弹窗背景颜色 */
+            color: black; /* 字体颜色 */
+            border-radius: 15px; /* 圆角 */
+            padding: 15px; /* 内边距 */
+            max-width: 400px; /* 最大宽度 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 阴影 */
+        }
+        .mapboxgl-popup-content {
+            font-size: 16px; /* 字体大小 */
+            background: none; /* 去掉弹窗内容背景 */
+            padding: 0; /* 去掉内容内边距 */
+        }
+        .mapboxgl-popup img {
+            max-width: 100%; /* 确保图片不会超出弹窗的宽度 */
+        }
+        .mapboxgl-popup a {
+            color: #00f; /* 链接颜色 */
+            text-decoration: underline; /* 链接下划线 */
+        }
     </style>
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css' rel='stylesheet' />
@@ -39,7 +62,20 @@
             filter: ['==', '$type', 'Polygon'],
             paint: {
                 'fill-color': '#888888',
-                'fill-opacity': 0.4
+                'fill-opacity': 0
+            }
+        });
+
+        // 添加边框虚线
+        map.addLayer({
+            'id': 'polygon-border',
+            'type': 'line',
+            'source': 'geojson-data', // 确保这里的 source 名称与上面的匹配
+            'filter': ['==', '$type', 'Polygon'], // 添加过滤器以确保只选择多边形
+            'paint': {
+                'line-color': '#04ff00',
+                'line-width': 4,
+                'line-dasharray': [2, 3] // 虚线样式
             }
         });
 
@@ -53,7 +89,6 @@
                 'circle-radius': 10,
                 'circle-color': '#007cbf',
                 'circle-opacity': 0
-
             }
         });
 
@@ -62,27 +97,21 @@
             const features = e.features[0];
             const name = features.properties.name || '未命名';
             const img = features.properties.img || '';
-            const index= features.properties['1_index'] || '#';
+            const index = features.properties['1_index'] || '#';
             const link = features.properties['3_link'] || '#';
             const description = features.properties.description || '';
 
             new mapboxgl.Popup({ offset: 25 })
                 .setLngLat(e.lngLat)
                 .setHTML(`
-        <div style="font-size: 16px; font-weight: bold; margin-bottom: 10px; max-width: 300px;">${name}</div>
-        <p style="max-width: 300px; margin-bottom: 10px;">${index}</p>
-        <p style="max-width: 300px; margin-bottom: 10px;">${description}</p>
-        
-        <!-- 图片 -->
-        <img src="${img}" alt="${name}" style="width: 100%; height: auto; margin-bottom: 10px; display: block;">
-
-        <!-- 查看大图链接 -->
-        <a href="${link}" target="_blank" style="font-size: 14px; color: #007cbf; display: block; margin-top: 10px;">查看大图</a>
-    `)
+                    <div style="font-size: 16px; font-weight: bold; margin-bottom: 10px;">${name}</div>
+                    <p style="margin-bottom: 10px;">${index}</p>
+                    <p style="margin-bottom: 10px;">${description}</p>
+                    <img src="${img}" alt="${name}" style="width: 100%; height: auto; margin-bottom: 10px;">
+                    <a href="${link}" target="_blank" style="font-size: 14px; color: #007cbf;">查看大图</a>
+                `)
                 .addTo(map);
         });
-
-
 
         // Change cursor to pointer on hover
         map.on('mouseenter', 'points', function() {
