@@ -10,18 +10,18 @@
 
         /* 自定义弹窗样式 */
         .mapboxgl-popup {
-            background: rgba(255, 0, 0, 0.4); /* 弹窗背景颜色 */
-            border-radius: 10px; /* 圆角 */
+            background: rgba(255, 255, 255, 0.8); /* 弹窗背景颜色 */
+            border-radius: 5px; /* 圆角 */
             padding: 5px; /* 内边距 */
             max-width: 400px; /* 最大宽度 */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 阴影 */
+            box-shadow: 0 0 0px rgba(0, 0, 0, 0.5); /* 阴影 */
             pointer-events: auto; /* 确保弹窗可点击 */
         }
 
         .mapboxgl-popup-content {
             background: rgba(0, 0, 0, 0)!important;  /* 内容区域背景颜色 */
             padding: 0; /* 去掉内容内边距 */
-            color: white; /* 字体颜色 */
+            color: black; /* 字体颜色 */
         }
 
         .mapboxgl-popup img {
@@ -47,6 +47,7 @@
             visibility: hidden; /* 初始隐藏标题 */
             white-space: nowrap; /* 不换行 */
             z-index: 10; /* 确保标题在其他元素之上 */
+            font: 12px/20px 'Open Sans', sans-serif;
         }
     </style>
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
@@ -93,8 +94,8 @@
             'filter': ['==', '$type', 'Polygon'],
             'paint': {
                 'line-color': '#00ff88',
-                'line-width': 5,
-                'line-dasharray': [4, 4], // 虚线样式
+                'line-width': 6,
+                'line-dasharray': [3, 3], // 虚线样式
                 'line-cap': 'round' // 线条端点为圆角
             }
         });
@@ -128,7 +129,7 @@
                     <p style="margin-bottom: 10px;">${index}</p>
                     <p style="margin-bottom: 10px;">${description}</p>
                     <img src="${img}" alt="${name}" style="width: 100%; height: auto; margin-bottom: 10px;">
-                    <a href="${link}" target="_blank" style="font-size: 14px; color: #007cbf; display: block; margin-top: 10px;">查看大图</a>
+                    <a href="${link}" target="_blank" style="font: open sans; font-size: 14px; color: #007cbf; display: block; margin-top: 10px;">查看大图</a>
                 `)
                 .addTo(map);
         });
