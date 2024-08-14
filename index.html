@@ -3,116 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapbox GL JS with GeoJSON</title>
+    <title>Map with Popup</title>
     <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        #map {
-            width: 100%;
-            height: 100vh;
-        }
-        /* 定义弹窗内容的样式 */
-        .popup-title {
-            font-size: 18px;
-            font-weight: bold;
-        }
-        .popup-description {
-            font-size: 14px;
-            margin-top: 5px;
-        }
-        .popup-image {
-            width: 100%;
-            margin-top: 10px;
-        }
-        .popup-link {
-            margin-top: 10px;
-            display: block;
-            color: blue;
-            text-decoration: underline;
-        }
+        body, html { margin: 0; padding: 0; height: 100%; }
+        #map { width: 100%; height: 100vh; }
     </style>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
-    <div id="map"></div>
+<div id="map"></div>
 
-    <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
-    <script>
-        // Replace 'your_mapbox_token' with your actual Mapbox token
-        mapboxgl.accessToken = 'pk.eyJ1IjoiYWlsaW56aTUyOCIsImEiOiJjbHp0ZXQxZ3oyY2JuMnJyNHdxc2xndW94In0.1rfDN-c2Pjk5TztXwd0OLg';
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYWlsaW56aTUyOCIsImEiOiJjbHp0ZXQxZ3oyY2JuMnJyNHdxc2xndW94In0.1rfDN-c2Pjk5TztXwd0OLg';
 
-        const map = new mapboxgl.Map({
-            container: 'map', // container ID
-            style: 'mapbox://styles/ailinzi528/clzs9eijl00e001pibjwi5e0o', // Mapbox style URL
-            center: [104.066, 30.650], // Initial center coordinates [lng, lat]
-            zoom: 12, // Initial zoom level
-            pitchWithRotate: false,  // 禁用通过旋转来倾斜地图
-            dragRotate: false,       // 禁用通过拖拽来旋转地图
-            maxPitch: 0              // 限制地图的最大倾斜角度为 0 度（即禁用3D视图）
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/ailinzi528/clzs9eijl00e001pibjwi5e0o',
+        center: [104.066, 30.650],
+        zoom: 12
+    });
+
+    map.on('load', function() {
+        // Add GeoJSON data source
+        map.addSource('geojson-data', {
+            type: 'geojson',
+            data: 'wts2024_0814.geojson'
         });
 
-                // 添加地图上的缩放和方向控制
-        map.addControl(new mapboxgl.NavigationControl());
+        // Add layer for polygons
+        map.addLayer({
+            id: 'polygons',
+            type: 'fill',
+            source: 'geojson-data',
+            filter: ['==', '$type', 'Polygon'],
+            paint: {
+                'fill-color': '#888888',
+                'fill-opacity': 0.4
+            }
+        });
 
-    
-    map.on('load', function() {
-        fetch('wts2024.geojson')
-            .then(response => response.json())
-            .then(data => {
-                map.addSource('geojson-points', {
-                    'type': 'geojson',
-                    'data': data
-                });
+        // Add layer for points
+        map.addLayer({
+            id: 'points',
+            type: 'circle',
+            source: 'geojson-data',
+            filter: ['==', '$type', 'Point'],
+            paint: {
+                'circle-radius': 10,
+                'circle-color': '#007cbf'
+            }
+        });
 
-                map.addLayer({
-                    'id': 'points',
-                    'type': 'circle',
-                    'source': 'geojson-points',
-                    'paint': {
-                        'circle-color': '#FF5722',
-                        'circle-radius': 8,
-                        'circle-opacity': 0 // 设置透明度为0
-                    }
-                });
+        // Add click event to display popup
+        map.on('click', 'points', function(e) {
+            const features = e.features[0];
+            const name = features.properties.name || '未命名';
+            const img = features.properties.img || '';
+            const link = features.properties['3_link'] || '#';
+            const description = features.properties.description || '';
 
-                map.on('click', 'points', function(e) {
-                    const coordinates = e.features[0].geometry.coordinates.slice();
-                    const description = e.features[0].properties.description || '';
-                    const imageUrl = e.features[0].properties.img || '';
-                    const link = e.features[0].properties['3_link'] || '#';
-                    const name = e.features[0].properties['0_name'] || '#';
+            new mapboxgl.Popup({ offset: 25 })
+                .setLngLat(e.lngLat)
+                .setHTML(`
+                    <div style="font-size: 16px; font-weight: bold; margin-bottom: 10px;">${name}</div>
+                    <img src="${img}" alt="${name}" style="width:150px; height:auto; margin-bottom: 10px;">
+                    <p>${description}</p>
+                    <a href="${link}" target="_blank" style="font-size: 14px; color: #007cbf;">查看大图</a>
+                `)
+                .addTo(map);
+        });
 
 
-                    const popupContent = `
-                        <div>
-                            <p class="popup-title">${name}</p>
-                            ${description ? `<p class="popup-description">${description}</p>` : ''}
-                            ${imageUrl ? `<img class="popup-image" src="${imageUrl}" alt="Image">` : ''}
-                            <a class="popup-link" href="${link}" target="_blank">查看大图</a>
-                        </div>`;
 
-                    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-                        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-                    }
+        // Change cursor to pointer on hover
+        map.on('mouseenter', 'points', function() {
+            map.getCanvas().style.cursor = 'pointer';
+        });
 
-                    new mapboxgl.Popup()
-                        .setLngLat(coordinates)
-                        .setHTML(popupContent)
-                        .addTo(map);
-                });
+        map.on('mouseenter', 'polygons', function() {
+            map.getCanvas().style.cursor = 'pointer';
+        });
 
-                map.on('mouseenter', 'points', function() {
-                    map.getCanvas().style.cursor = 'pointer';
-                });
+        // Change cursor back to default on mouse leave
+        map.on('mouseleave', 'points', function() {
+            map.getCanvas().style.cursor = '';
+        });
 
-                map.on('mouseleave', 'points', function() {
-                    map.getCanvas().style.cursor = '';
-                });
-            });
+        map.on('mouseleave', 'polygons', function() {
+            map.getCanvas().style.cursor = '';
+        });
     });
-    </script>
+</script>
 </body>
 </html>
