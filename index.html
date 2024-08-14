@@ -67,6 +67,21 @@
         zoom: 12
     });
 
+    // 添加 Geolocate 控件
+    map.addControl(
+        new mapboxgl.GeolocateControl({
+            positionOptions: {
+                enableHighAccuracy: true
+            },
+            trackUserLocation: true,
+            showUserHeading: true
+        }),
+        'top-left' // 控件位置
+    );
+
+    // 添加缩放控件
+    map.addControl(new mapboxgl.NavigationControl(), 'top-left');
+
     map.on('load', function() {
         // Add GeoJSON data source
         map.addSource('geojson-data', {
