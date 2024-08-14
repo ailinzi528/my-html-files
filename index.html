@@ -3,32 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map with Popup</title>
+    <title>Map with Popup and Caption</title>
     <style>
         body, html { margin: 0; padding: 0; height: 100%; }
         #map { width: 100%; height: 100vh; }
 
-
         /* 自定义弹窗样式 */
         .mapboxgl-popup {
-            background: rgba(255, 0, 0, 0.5); /* 弹窗背景颜色 */
-            color: black; /* 字体颜色 */
-            border-radius: 15px; /* 圆角 */
-            padding: 15px; /* 内边距 */
+            background: rgba(255, 0, 0, 0.4); /* 弹窗背景颜色 */
+            border-radius: 10px; /* 圆角 */
+            padding: 5px; /* 内边距 */
             max-width: 400px; /* 最大宽度 */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 阴影 */
+            pointer-events: auto; /* 确保弹窗可点击 */
         }
+
         .mapboxgl-popup-content {
-            font-size: 16px; /* 字体大小 */
-            background: none; /* 去掉弹窗内容背景 */
+            background: rgba(0, 0, 0, 0)!important;  /* 内容区域背景颜色 */
             padding: 0; /* 去掉内容内边距 */
+            color: white; /* 字体颜色 */
         }
+
         .mapboxgl-popup img {
             max-width: 100%; /* 确保图片不会超出弹窗的宽度 */
         }
+
         .mapboxgl-popup a {
-            color: #00f; /* 链接颜色 */
+            color: white; /* 链接颜色 */
             text-decoration: underline; /* 链接下划线 */
+        }
+
+        /* 自定义标题样式 */
+        .caption {
+            position: absolute; /* 绝对定位 */
+            background: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+            padding: 5px; /* 内边距 */
+            border-radius: 3px; /* 圆角 */
+            color: #000; /* 字体颜色 */
+            font-size: 14px; /* 字体大小 */
+            font-weight: bold; /* 字体粗细 */
+            text-align: center; /* 文字居中 */
+            pointer-events: none; /* 确保标题不干扰鼠标事件 */
+            visibility: hidden; /* 初始隐藏标题 */
+            white-space: nowrap; /* 不换行 */
+            z-index: 10; /* 确保标题在其他元素之上 */
         }
     </style>
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
@@ -36,6 +54,7 @@
 </head>
 <body>
 <div id="map"></div>
+<div id="caption" class="caption"></div> <!-- 用于显示标题 -->
 
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiYWlsaW56aTUyOCIsImEiOiJjbHp0ZXQxZ3oyY2JuMnJyNHdxc2xndW94In0.1rfDN-c2Pjk5TztXwd0OLg';
@@ -70,12 +89,13 @@
         map.addLayer({
             'id': 'polygon-border',
             'type': 'line',
-            'source': 'geojson-data', // 确保这里的 source 名称与上面的匹配
-            'filter': ['==', '$type', 'Polygon'], // 添加过滤器以确保只选择多边形
+            'source': 'geojson-data',
+            'filter': ['==', '$type', 'Polygon'],
             'paint': {
-                'line-color': '#04ff00',
-                'line-width': 4,
-                'line-dasharray': [2, 3] // 虚线样式
+                'line-color': '#00ff88',
+                'line-width': 5,
+                'line-dasharray': [4, 4], // 虚线样式
+                'line-cap': 'round' // 线条端点为圆角
             }
         });
 
@@ -108,9 +128,35 @@
                     <p style="margin-bottom: 10px;">${index}</p>
                     <p style="margin-bottom: 10px;">${description}</p>
                     <img src="${img}" alt="${name}" style="width: 100%; height: auto; margin-bottom: 10px;">
-                    <a href="${link}" target="_blank" style="font-size: 14px; color: #007cbf;">查看大图</a>
+                    <a href="${link}" target="_blank" style="font-size: 14px; color: #007cbf; display: block; margin-top: 10px;">查看大图</a>
                 `)
                 .addTo(map);
+        });
+
+        // Show caption on hover
+        map.on('mouseenter', 'points', function(e) {
+            const features = e.features[0];
+            const name = features.properties.name || '未命名';
+            const index = features.properties['1_index'] || '#';
+            
+            const captionText = `${index} ${name}`;
+            const coordinates = e.lngLat;
+
+            // Update caption content and position
+            const caption = document.getElementById('caption');
+            caption.textContent = captionText;
+            caption.style.visibility = 'visible';
+            
+            // Calculate the pixel coordinates for the caption
+            const pixelCoords = map.project(coordinates);
+            caption.style.left = `${pixelCoords.x}px`;
+            caption.style.top = `${pixelCoords.y}px`;
+        });
+
+        // Hide caption on mouse leave
+        map.on('mouseleave', 'points', function() {
+            const caption = document.getElementById('caption');
+            caption.style.visibility = 'hidden';
         });
 
         // Change cursor to pointer on hover
@@ -118,16 +164,7 @@
             map.getCanvas().style.cursor = 'pointer';
         });
 
-        map.on('mouseenter', 'polygons', function() {
-            map.getCanvas().style.cursor = 'pointer';
-        });
-
-        // Change cursor back to default on mouse leave
         map.on('mouseleave', 'points', function() {
-            map.getCanvas().style.cursor = '';
-        });
-
-        map.on('mouseleave', 'polygons', function() {
             map.getCanvas().style.cursor = '';
         });
     });
