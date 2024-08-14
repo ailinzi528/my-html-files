@@ -49,6 +49,17 @@
             z-index: 10; /* 确保标题在其他元素之上 */
             font: 12px/20px 'Open Sans', sans-serif;
         }
+
+        .mapboxgl-ctrl-custom {
+            background: #fff;
+            border-radius: 4px;
+            padding: 8px;
+            margin: 10px;
+            cursor: pointer;
+            font: 14px 'Open Sans', sans-serif;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
     </style>
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css' rel='stylesheet' />
@@ -67,20 +78,19 @@
         zoom: 12
     });
 
-    // 添加 Geolocate 控件
-    map.addControl(
-        new mapboxgl.GeolocateControl({
-            positionOptions: {
-                enableHighAccuracy: true
-            },
-            trackUserLocation: true,
-            showUserHeading: true
-        }),
-        'top-left' // 控件位置
-    );
+    // Add zoom controls
+    const nav = new mapboxgl.NavigationControl();
+    map.addControl(nav, 'top-right');
 
-    // 添加缩放控件
-    map.addControl(new mapboxgl.NavigationControl(), 'top-left');
+    // Add geolocate control to the map
+    const geoLocateControl = new mapboxgl.GeolocateControl({
+        positionOptions: {
+            enableHighAccuracy: true
+        },
+        trackUserLocation: true,
+        showUserHeading: true
+    });
+    map.addControl(geoLocateControl, 'top-left');
 
     map.on('load', function() {
         // Add GeoJSON data source
@@ -101,7 +111,7 @@
             }
         });
 
-        // 添加边框虚线
+        // Add border layer for polygons
         map.addLayer({
             'id': 'polygon-border',
             'type': 'line',
@@ -110,8 +120,8 @@
             'paint': {
                 'line-color': '#00ff88',
                 'line-width': 6,
-                'line-dasharray': [3, 3], // 虚线样式
-                'line-cap': 'round' // 线条端点为圆角
+                'line-dasharray': [3, 3], // Dashed line style
+                'line-cap': 'round' // Round line caps
             }
         });
 
