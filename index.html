@@ -1,36 +1,102 @@
 <!DOCTYPE html>
-<html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>amassmap</title>
-    <!-- 引入 Mapbox GL JS 的 CSS 文件 -->
-    <link href="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css" rel="stylesheet">
-    <!-- 引入 Mapbox GL JS 的 JS 文件 -->
-    <script src="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js"></script>
+    <title>Mapbox GL JS with GeoJSON</title>
     <style>
         body { margin: 0; padding: 0; }
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
     </style>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
     <div id="map"></div>
 
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
     <script>
-        // 设置 Mapbox 访问令牌
+        // Replace 'your_mapbox_token' with your actual Mapbox token
         mapboxgl.accessToken = 'pk.eyJ1IjoiYWlsaW56aTUyOCIsImEiOiJjbHp0ZXQxZ3oyY2JuMnJyNHdxc2xndW94In0.1rfDN-c2Pjk5TztXwd0OLg';
 
-        // 创建地图对象
         const map = new mapboxgl.Map({
-            container: 'map', // 地图容器 ID
-            style: 'mapbox://styles/ailinzi528/clzs9eijl00e001pibjwi5e0o', // 你的 Mapbox 样式 URL
-            center: [104.066, 30.650], // 地图中心坐标 [经度, 纬度]
-            zoom: 13 // 地图缩放级别
+            container: 'map', // container ID
+            style: 'mapbox://styles/ailinzi528/clzs9eijl00e001pibjwi5e0o', // Mapbox style URL
+            center: [104.066, 30.650], // Initial center coordinates [lng, lat]
+            zoom: 12 // Initial zoom level
         });
 
-        // 添加地图上的缩放和方向控制
+                // 添加地图上的缩放和方向控制
         map.addControl(new mapboxgl.NavigationControl());
 
+
+        map.on('load', function () {
+            // Add a GeoJSON source containing your data
+            fetch('wts2024.geojson')
+                .then(response => response.json())
+                .then(data => {
+                    console.log('GeoJSON data loaded:', data);
+
+                    // Add the GeoJSON source to the map
+                    map.addSource('areas', {
+                        'type': 'geojson',
+                        'data': data
+                    });
+
+                    // Add a layer to visualize the polygons
+                    map.addLayer({
+                        'id': 'polygon-layer',
+                        'type': 'fill',
+                        'source': 'areas',
+                        'paint': {
+                            'fill-color': '#888888',
+                            'fill-opacity': 0.4
+                        },
+                        'filter': ['==', '$type', 'Polygon']
+                    });
+
+                    // Add a layer to visualize the points
+                    map.addLayer({
+                        'id': 'point-layer',
+                        'type': 'circle',
+                        'source': 'areas',
+                        'paint': {
+                            'circle-radius': 6,
+                            'circle-color': '#007cbf'
+                        },
+                        'filter': ['==', '$type', 'Point']
+                    });
+
+                    // Add popup functionality
+                    map.on('click', 'point-layer', function (e) {
+                        const coordinates = e.features[0].geometry.coordinates.slice();
+                        const { name, img, description } = e.features[0].properties;
+
+                        const popupContent = `
+                            <h3>${name}</h3>
+                            <p>${description}</p>
+                            <img src="${img}" alt="${name}" style="width:100%; height:auto;" />
+                        `;
+
+                        new mapboxgl.Popup()
+                            .setLngLat(coordinates)
+                            .setHTML(popupContent)
+                            .addTo(map);
+                    });
+
+                    // Change the cursor to a pointer when over a point
+                    map.on('mouseenter', 'point-layer', function () {
+                        map.getCanvas().style.cursor = 'pointer';
+                    });
+
+                    // Change it back to the default cursor when not over a point
+                    map.on('mouseleave', 'point-layer', function () {
+                        map.getCanvas().style.cursor = '';
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading GeoJSON:', error);
+                });
+        });
     </script>
 </body>
 </html>
