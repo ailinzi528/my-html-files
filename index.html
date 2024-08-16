@@ -144,14 +144,7 @@
                             el.style.backgroundSize = '100%';
 
                             new mapboxgl.Marker(el)
-                                .setLngLat(feature.geometry.coordinates)
-                                .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(`
-                                    <div style="font-size: 16px; font-weight: bold; margin-bottom: 10px;">${feature.properties.name || ''}</div>
-                                    <p style="margin-bottom: 10px;">${feature.properties['1_index'] || '#'}</p>
-                                    <p style="margin-bottom: 10px;">${feature.properties.description || ''}</p>
-                                    <img src="${feature.properties.img || ''}" alt="${feature.properties.name || ''}" style="width: 100%; height: auto; margin-bottom: 10px;">
-                                    <a href="${feature.properties['3_link'] || '#'}" target="_blank" style="font: open sans; font-size: 14px; color: #007cbf; display: block; margin-top: 10px;">查看大图</a>
-                                `))
+                                .setLngLat(feature.geometry.coordinates)                         
                                 .addTo(map);
                         }
                     });
