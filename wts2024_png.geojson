@@ -1,0 +1,3814 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "_umap_options": {
+          "dashArray": "5,12",
+          "fillOpacity": 0.3,
+          "weight": 6,
+          "color": "Chocolate",
+          "fillColor": "Beige",
+          "stroke": true,
+          "fill": true,
+          "interactive": false
+        },
+        "0_name": "双楠走街边界",
+        "name": "双楠走街边界"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104.01967,
+              30.654084
+            ],
+            [
+              104.019842,
+              30.647733
+            ],
+            [
+              104.029412,
+              30.63806
+            ],
+            [
+              104.035978,
+              30.631524
+            ],
+            [
+              104.041729,
+              30.640607
+            ],
+            [
+              104.039111,
+              30.643451
+            ],
+            [
+              104.038854,
+              30.644189
+            ],
+            [
+              104.038811,
+              30.653973
+            ],
+            [
+              104.03748,
+              30.654121
+            ],
+            [
+              104.034648,
+              30.653345
+            ],
+            [
+              104.024692,
+              30.653271
+            ],
+            [
+              104.022117,
+              30.653899
+            ],
+            [
+              104.020872,
+              30.65401
+            ],
+            [
+              104.01967,
+              30.654084
+            ]
+          ]
+        ]
+      },
+      "id": "AyNjk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_umap_options": {
+          "dashArray": "5,12",
+          "color": "Brown",
+          "interactive": false,
+          "fillOpacity": 0.1,
+          "fill": true
+        },
+        "0_name": "红石柱走街范围",
+        "name": "红石柱走街范围",
+        "3_link": "https://amassstudio.com/TOWARDS-THE-STREET-2024"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104.063787,
+              30.655007
+            ],
+            [
+              104.066191,
+              30.65497
+            ],
+            [
+              104.067907,
+              30.656926
+            ],
+            [
+              104.068551,
+              30.658181
+            ],
+            [
+              104.068379,
+              30.662722
+            ],
+            [
+              104.070396,
+              30.662759
+            ],
+            [
+              104.071512,
+              30.662501
+            ],
+            [
+              104.071856,
+              30.662408
+            ],
+            [
+              104.074795,
+              30.666857
+            ],
+            [
+              104.076619,
+              30.666118
+            ],
+            [
+              104.076405,
+              30.665749
+            ],
+            [
+              104.089279,
+              30.6594
+            ],
+            [
+              104.088378,
+              30.658145
+            ],
+            [
+              104.087219,
+              30.655154
+            ],
+            [
+              104.093356,
+              30.652422
+            ],
+            [
+              104.087734,
+              30.643155
+            ],
+            [
+              104.073744,
+              30.636287
+            ],
+            [
+              104.063873,
+              30.635918
+            ],
+            [
+              104.063787,
+              30.655007
+            ]
+          ]
+        ]
+      },
+      "id": "c0Nzg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_umap_options": {
+          "iconClass": "Drop",
+          "iconUrl": "/uploads/pictogram/heart.svg",
+          "color": "Blue"
+        },
+        "description": "一个很有才华的工作室",
+        "0_name": "一门社 amass studio",
+        "img": "https://freight.cargo.site/t/original/i/c6f695d328148295ab75a90f2bd2f0feb8a775381585ee47eff8b18a3bf170bb/DSC04367.jpg",
+        "name": "一门社 amass studio",
+        "3_link": "https://amassstudio.com/info"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.024241,
+          30.650521
+        ]
+      },
+      "id": "YyMDI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "五金店自制报刊台",
+        "0_name": "五金店自制报刊台",
+        "1_index": "24CDU304",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTA5MDkyNi9vcmlnaW5hbF80N2M0ZTc2MGMxYWIzNmFiODUzYjIxMDE4NDFlMzFkOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/29090926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.076367,
+          30.643871
+        ]
+      },
+      "id": "MyMjg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1_index": "24CDU448",
+        "description": "",
+        "3_link": "https://www.are.na/block/29307337",
+        "0_name": "五金店藤编躺椅",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTMwNzMzNy9vcmlnaW5hbF8yMTM2Yjk5Yjc1NDk3YTUzMTY4YmJlNGI5NzdiYzk1ZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "4_type": "chair",
+        "name": "五金店藤编躺椅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.087107,
+          30.649861
+        ]
+      },
+      "id": "U4OTM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "修理店修理车",
+        "0_name": "修理店修理车",
+        "1_index": "24CDU275",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODYxNDgzMS9vcmlnaW5hbF8xMjE4YmE3ZWFmYjlhZGVmMzEzOTBkNzYwODI0MWYyNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/28614831",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003407/original_7e81254944c55bc02e02c802c8e0c892.png?1723652268?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.077472,
+          30.653073
+        ]
+      },
+      "id": "YzMTc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "修锁店伞撑门头",
+        "0_name": "修锁店伞撑门头",
+        "1_index": "24CDU162",
+        "3_link": "https://www.are.na/block/28012755",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMjc1NS9vcmlnaW5hbF9jODU4NThhMjAwYjhiMzM4NzMxOGVhOTcwMmIxMWExYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.074527,
+          30.650558
+        ]
+      },
+      "id": "gxNzQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "内衣店自制移动陈列台",
+        "0_name": "内衣店自制移动陈列台",
+        "1_index": "24CDU347",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTMwNjAyMy9vcmlnaW5hbF9kZTMxN2VlMjMwOTI4MjhkNDhkMmQ0YmFhNjg5YjRkZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/29306023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.071099,
+          30.659714
+        ]
+      },
+      "id": "g0NzI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "水泥墩子底座",
+        "name": "水泥墩子底座",
+        "1_index": "24CDU111",
+        "3_link": "https://www.are.na/block/27990913",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MDkxMy9vcmlnaW5hbF80M2I4OGIxNzI2YmFjYjUwZGJhYzAwZDNlNWVkZjdmYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075498,
+          30.652962
+        ]
+      },
+      "id": "gwMjA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "水果摊车摊",
+        "1_index": "24CDU425",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTMyOTcwMy9vcmlnaW5hbF9mYWQ4M2I1YTBmMjUyMjZiMjViYzc1ODc4ZDMyZGQwYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/29329703",
+        "name": "水果摊车摊",
+        "description": "一个好车",
+        "4_type": "mobile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.080127,
+          30.649856
+        ]
+      },
+      "id": "ExMzY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "自制伸缩遮阳雨棚",
+        "0_name": "自制伸缩遮阳雨棚",
+        "1_index": "24CDU328",
+        "3_link": "https://www.are.na/block/29174282",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTE3NDI4Mi9vcmlnaW5hbF8yYTIwY2NkMGIyMWRkOTJiMDY1NDZiZDZkOTRmYTEzZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.088088,
+          30.653271
+        ]
+      },
+      "id": "k2NDU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "自制废品车车龙头",
+        "0_name": "自制废品车车龙头",
+        "3_link": "https://www.are.na/block/28614704",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODYxNDcwNC9vcmlnaW5hbF8yNjBlNGVkNTY1Njc0YmNjOGQ2NWE2NWU5ODMwNjE5MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "1_index": "24CDU363"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.071373,
+          30.658864
+        ]
+      },
+      "id": "kyNTM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "自制拉货拖车",
+        "0_name": "自制拉货拖车",
+        "1_index": "24CDU348",
+        "3_link": "https://www.are.na/block/29904613",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTkwNDYxMy9vcmlnaW5hbF85MDA1NTU5YzJlYzczYmYxMmQwZGMzZWJmYmUyMDU2MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.070595,
+          30.65969
+        ]
+      },
+      "id": "U2Nzg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "自制拉货板车",
+        "3_link": "https://www.are.na/block/28614708",
+        "0_name": "自制拉货板车",
+        "1_index": "24CDU264",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODYxNDcwOC9vcmlnaW5hbF80Zjc0NTBhNjBlZGZkZTg3MTgzNmNkZTZlMzEzNDAwMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.070429,
+          30.659427
+        ]
+      },
+      "id": "kzNDM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "自制监控框",
+        "0_name": "自制监控框",
+        "1_index": "24CDU362",
+        "3_link": "https://www.are.na/block/29307487",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTMwNzQ4Ny9vcmlnaW5hbF8zNjNkMmEzMDhjYzcxZDdjM2M5NGUxYjhhYWVmNWExNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.069109,
+          30.655911
+        ]
+      },
+      "id": "k1MDI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "轮胎水泥墩子",
+        "0_name": "轮胎水泥墩子",
+        "1_index": "24CDU427",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTM2Mjk4My9vcmlnaW5hbF81YTljN2NhZjk4ZDNkNThhNmYyNjM2ZmRiNDAyMmQ1Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/29362983"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.074763,
+          30.65029
+        ]
+      },
+      "id": "UwOTA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_umap_options": {
+          "popupShape": "Default",
+          "iconClass": "Drop"
+        },
+        "description": "",
+        "0_name": "堆叠的水桶",
+        "3_link": "https://www.are.na/block/29103883",
+        "1_index": "24CDU312",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTEwMzg4My9vcmlnaW5hbF80NzA2YzZiNjI5NGY0NGIyMjY4NTkxYTZiZGUxZDBjNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "name": "送水店堆叠水桶"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.079108,
+          30.644743
+        ]
+      },
+      "id": "I4NTI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "门铃簸箕挡板",
+        "0_name": "门铃簸箕挡板",
+        "1_index": "24CDU260",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODYxNDY4OC9vcmlnaW5hbF80ZTA0OWY4ZWViNWRkM2QyMjNkYzUzZjg2YTMzOGIzYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/28614688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.070278,
+          30.656557
+        ]
+      },
+      "id": "k4ODk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1_index": "24CDU266",
+        "3_link": "https://www.are.na/block/28614720",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODYxNDcyMC9vcmlnaW5hbF8wMTM1ZmVlZjNmMmM2ZWEzYWM1OTY3MGRmNWY4YjM2NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "0_name": "五金店糖葫芦字体广告牌",
+        "4_type": "ad",
+        "name": "五金店糖葫芦字体广告牌",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003502/original_6783eaef708984941fd356a8cee0bb3c.png?1723652500?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.072778,
+          30.660461
+        ]
+      },
+      "id": "kzNDY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTMwNTg2OS9vcmlnaW5hbF85NzdiN2QyMjZhNTUyZjkzNDIxMTQ1NTM1MjYyYzliMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/29305869",
+        "0_name": "假发店雨伞车",
+        "1_index": "24CDU341",
+        "name": "假发店雨伞车",
+        "description": "*3D Scanned Model:*{{{https://p3d.in/e/LB9CU+spin+load+shading,dl,help,share,spin,link,border,loader-hidden}}}",
+        "_umap_options": {
+          "iconUrl": "/uploads/pictogram/star.svg"
+        },
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003480/original_ab6a1a9cd0080c5f233dd4be46a02f98.png?1723652419?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.069045,
+          30.657489
+        ]
+      },
+      "id": "AxNTk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1_index": "24CDU138",
+        "description": "",
+        "0_name": "停车场停车牌",
+        "3_link": "https://www.are.na/block/28011880",
+        "4_type": "ad",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMTg4MC9vcmlnaW5hbF8wMjk2OGY3YTc4NDgzMDBiZGRjMjM0YmNmMWUyZWQ1NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "name": "停车场停车牌",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003398/original_82eb31d668cd60594effcf98add9dfd9.png?1723652199?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075707,
+          30.648915
+        ]
+      },
+      "id": "Q3MjY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "",
+        "0_name": "广告店加固板凳",
+        "3_link": "https://www.are.na/block/30003434",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTQ0NjU1Ny9vcmlnaW5hbF9lZTFlNjMxYjY0NTllODIyNTM2ZGIzMTIyNzcwZjc1NS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "1_index": "24CDU445",
+        "4_type": "chair",
+        "name": "广告店加固板凳",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003434/original_9c695e7de36765ec19088318011993c2.png?1723652373?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.078647,
+          30.651988
+        ]
+      },
+      "id": "k4MzM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "快递店铁焊物流框",
+        "3_link": "https://www.are.na/block/29328486",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTMyODQ4Ni9vcmlnaW5hbF9lMGFlOGMyMDgzZjAzMDlmYzM2YWM4MGU1ZjBkMWQ5Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "1_index": "24CDU420",
+        "name": "快递店铁焊物流框",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003416/original_59183757d869e3391e5d010b2cfa4f03.png?1723652325?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.079398,
+          30.642306
+        ]
+      },
+      "id": "UyMjI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "梯子广告牌",
+        "1_index": "24CDU417",
+        "3_link": "https://www.are.na/block/29328230",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTMyODIzMC9vcmlnaW5hbF85NmEzZjc4ZDA4M2ZmM2NkZjMzYjdkNzUyZWIyNTQzMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "4_type": "ad",
+        "name": "梯子广告牌"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.080074,
+          30.648218
+        ]
+      },
+      "id": "A5MTY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "水产店编织手拉车",
+        "1_index": "24CDU342",
+        "3_link": "https://www.are.na/block/29305888",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTMwNTg4OC9vcmlnaW5hbF8wYjljOGZjYzY5OGQzMjdjMjA1OWE2NDVhOTNjMTMxMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "name": "水产店编织手拉车",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003465/original_3a00fd441056838e797fa00ca4676710.png?1723652402?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.069533,
+          30.655699
+        ]
+      },
+      "id": "c5MTg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_umap_options": {
+          "showLabel": null
+        },
+        "1_index": "24CDU343",
+        "description": "",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTMwNTkwNS9vcmlnaW5hbF9mMDlhYWMyZTU2NTE5YWFjZjQzZGQwMjFjYzkzNmNjMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/29305905",
+        "0_name": "水族馆麻袋门帘",
+        "4_type": "chair",
+        "name": "水族馆麻袋门帘"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.067081,
+          30.651882
+        ]
+      },
+      "id": "I5Njc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1_index": "24CDU265",
+        "description": "",
+        "0_name": "烟酒水广告牌",
+        "3_link": "https://www.are.na/block/28614718",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODYxNDcxOC9vcmlnaW5hbF8xZjU1NTA0MzNlZTViNWQxOTNhYTYxMTQ0YWI2MTE0OC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "4_type": "ad",
+        "name": "烟酒水广告牌"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.072955,
+          30.660706
+        ]
+      },
+      "id": "AxMTc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1_index": "24CDU434",
+        "0_name": "猪肉店垫高瓦片",
+        "3_link": "https://www.are.na/block/29416781",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTQxNjc4MS9vcmlnaW5hbF84MjNmZmRhZjFiNWM0YzViYWNkM2UzNzIzZTRhYWY3YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "name": "猪肉店垫高瓦片",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003424/original_ece1cfa1123914c780f23e4c4eb8b604.png?1723652351?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.074216,
+          30.650466
+        ]
+      },
+      "id": "g0ODI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "电焊面罩",
+        "1_index": "24CDU430",
+        "3_link": "https://www.are.na/block/29903145",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTkwMzE0NS9vcmlnaW5hbF8zOTQ2MzBiNmFkNjY3OTE1OGQ1MTA0NDE1Y2ViY2VhYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "name": "电焊面罩",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003397/original_c04520694e2f0c855fc2ce6ef3742dee.png?1723652195?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.091425,
+          30.648195
+        ]
+      },
+      "id": "A3NTE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "白师傅修理铺马扎",
+        "1_index": "24CDU333",
+        "3_link": "https://www.are.na/block/29285632",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTI4NTYzMi9vcmlnaW5hbF80MWY1NmE4ZjZiZmM5OGY2MGM0OTc0OTA2ZDdiYjYyNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "4_type": "chair",
+        "name": "白师傅修理铺马扎",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003497/original_3c211ac597bd41f97875c7d8437b1924.png?1723652492?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.082708,
+          30.661333
+        ]
+      },
+      "id": "c2NTI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "童装店增高脚垫",
+        "1_index": "24CDU446",
+        "3_link": "https://www.are.na/block/29464694",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTQ2NDY5NC9vcmlnaW5hbF8wODkxZDkwNDgzYjY5NjkzZDIyNjI2ZDNiNzA1ZTJlNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "name": "童装店增高脚垫",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003420/original_200c847d9c5d01e3ff9977bae125a436.png?1723652339?bc=0",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.07288,
+          30.660087
+        ]
+      },
+      "id": "Y2MTQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTMyOTU4Mi9vcmlnaW5hbF9mN2JiYzZjNGEyN2U3NTY1YTdmZjZjMGJkNjRjYTY1YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/29329582",
+        "1_index": "24CDU258",
+        "0_name": "自制簸箕",
+        "name": "自制簸箕",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003488/original_d31cc7e8cfc7ce0875154aec83608e8a.png?1723652451?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.079816,
+          30.650013
+        ]
+      },
+      "id": "Q0MjU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "",
+        "0_name": "裱画店加固椅子",
+        "3_link": "https://www.are.na/block/29378954",
+        "1_index": "24CDU432",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTM3ODk1NC9vcmlnaW5hbF8wYTY0YmM4Y2I0MDI4YmRhYzMwYWU1NTUxY2MwYjA0OC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "4_type": "chair",
+        "name": "裱画店加固椅子",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003413/original_59c6047522bd83c92203fd53949b04b6.png?1723652301?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.074844,
+          30.668785
+        ]
+      },
+      "id": "cxOTY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "",
+        "3_link": "https://www.are.na/block/29307393",
+        "1_index": "24CDU357",
+        "0_name": "裱画店增高椅子",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTMwNzM5My9vcmlnaW5hbF8zYjI3OTYwZWFhZjU2YjI4NTA4MTE2ZjU5Y2FlOTMyZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "4_type": "chair",
+        "name": "裱画店增高椅子",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003409/original_53f656b5d069cd71220528d632cf1a2b.png?1723652280?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075165,
+          30.668675
+        ]
+      },
+      "id": "Y4OTQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "这是一个非常厉害的轮胎椅",
+        "0_name": "轮胎椅子",
+        "3_link": "https://www.are.na/block/27990758",
+        "1_index": "24CDU109",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MDc1OC9vcmlnaW5hbF81ZTVlZmEzOTI5NjBkZTIzNDk2YTMyYjA0ZTJhZTdhYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "4_type": "chair",
+        "name": "轮胎椅子",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003411/original_65777ac8133e0d2f988748e7485c1af4.png?1723652285?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075766,
+          30.65245
+        ]
+      },
+      "id": "czMzk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "铁焊送水框1",
+        "1_index": "24CDU428",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTM2Mjk5OS9vcmlnaW5hbF8xZjkzYzA1ZDM0ZGYwYzZlNmJiMGQ0YmZjYTliNTFkNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/29362999",
+        "name": "铁焊送水框1",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003399/original_68a5a110756c3de5c94a953c7c052adf.png?1723652214?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.0918,
+          30.648832
+        ]
+      },
+      "id": "A4ODk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "铁焊送水框2",
+        "1_index": "24CDU336",
+        "3_link": "https://www.are.na/block/29285744",
+        "name": "铁焊送水框2",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTI4NTc0NC9vcmlnaW5hbF85NmFlNjE3MzA0YTgzMThkN2VhMzI1MDQwYzdlMTMwNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003355/original_991155e0f5945c39c1da080725a9b7a8.png?1723652020?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.091618,
+          30.6485
+        ]
+      },
+      "id": "U3NjE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "",
+        "0_name": "麻将馆烟盒日历",
+        "3_link": "https://www.are.na/block/27991265",
+        "1_index": "24CDU127",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MTI2NS9vcmlnaW5hbF9kMjRiZGNmYTkzNGFkYzhmYjI5NmI0YTA1OTQ2MTMzNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "name": "麻将馆烟盒日历"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.076399,
+          30.649736
+        ]
+      },
+      "id": "MyOTQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "麻将馆边几",
+        "0_name": "麻将馆边几",
+        "1_index": "24CDU128",
+        "3_link": "https://www.are.na/block/27991278",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MTI3OC9vcmlnaW5hbF9kZDMyNTY2MjliZjY2ODBjZDhjZjU5NmZiN2UyNzIzZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "0_png": "https://d2w9rnfcy7mm78.cloudfront.net/30003454/original_f7e308e6b944ec25c778fcc8ade66abd.png?1723652395?bc=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.076614,
+          30.649672
+        ]
+      },
+      "id": "IwODY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小区自治景观",
+        "1_index": "24CDU156",
+        "0_name": "小区自治景观",
+        "add": "铜井巷菜市场小区",
+        "3_link": "https://www.are.na/block/28012586",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMjU4Ni9vcmlnaW5hbF84ZWI2M2E3MWY4NDBjMDI5MTkzYjJiMDA2YTlhODY4NS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075037,
+          30.650859
+        ]
+      },
+      "id": "E4MzY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "加固椅子",
+        "0_name": "加固椅子",
+        "1_index": "24CDU132",
+        "add": "锦江区青莲上街（近镗钯街端）",
+        "3_link": "https://www.are.na/block/27992778",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5Mjc3OC9vcmlnaW5hbF85ZTBiMDM0Y2Q2YzZmYzIzYjM5YmZhMzNiZWEwZWVlYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.080954,
+          30.649714
+        ]
+      },
+      "id": "UwNDA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "卖花车",
+        "0_name": "卖花车",
+        "1_index": "24CDU131",
+        "3_link": "https://www.are.na/block/27992761",
+        "add": "锦江区青莲上街（近镗钯街端）",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5Mjc2MS9vcmlnaW5hbF9iMmM5MjBjMGUwNzY3ZjQ4NDYwMDRlZDY4MzhkY2UxNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.081066,
+          30.649885
+        ]
+      },
+      "id": "QxODA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "自制戳几",
+        "name": "自制戳几",
+        "1_index": "24CDU130",
+        "3_link": "https://www.are.na/block/27992509",
+        "add": "镗钯街与磨坊街交叉口",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MjUwOS9vcmlnaW5hbF9iNjA5YTM1NWZiMjRiZjQ1MzJmZjkyMTBlMGU4NzhjOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.079575,
+          30.650152
+        ]
+      },
+      "id": "Q2NDQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "增加了座面的凳子",
+        "0_name": "增加了座面的凳子",
+        "1_index": "24CDU117",
+        "3_link": "https://www.are.na/block/27990982",
+        "add": "东升街香桂苑",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MDk4Mi9vcmlnaW5hbF85MDYzNGIyYWQ1ZjBmZTYyMDI1MzExODVlZjk5M2M5Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075283,
+          30.652169
+        ]
+      },
+      "id": "E0MTI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "角钢挡板",
+        "name": "角钢挡板",
+        "1_index": "24CDU116",
+        "3_link": "https://www.are.na/block/27990970",
+        "add": "红星农贸市场",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MDk3MC9vcmlnaW5hbF83ZmUwNzgzYTU4NDNjNjJhMjNjNGZiZWYwNmE3OTdkNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075348,
+          30.652699
+        ]
+      },
+      "id": "E4Mjg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "瓷砖边角料地面",
+        "name": "瓷砖边角料地面",
+        "1_index": "24CDU114",
+        "add": "东升街锦升苑",
+        "3_link": "https://www.are.na/block/27990927",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MDkyNy9vcmlnaW5hbF9jMWMyZjYxMzhkODRjNzU2YmNiMzA4ZGZhMmIwNDM4Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.076169,
+          30.652427
+        ]
+      },
+      "id": "YxODA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "转运框垒高陈列",
+        "0_name": "转运框垒高陈列",
+        "1_index": "24CDU113",
+        "3_link": "https://www.are.na/block/27990917",
+        "add": "东升街红星农贸市场",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MDkxNy9vcmlnaW5hbF9mYmUyNTc4ZTc2NTI3N2U4YjhhZDkxOTJjOTQ1NGVlMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075385,
+          30.653147
+        ]
+      },
+      "id": "E1NDQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "蜘蛛腿桌简易桌",
+        "0_name": "蜘蛛腿桌简易桌",
+        "1_index": "24CDU142",
+        "add": "锦尚西二路356号",
+        "3_link": "https://www.are.na/block/28011903",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMTkwMy9vcmlnaW5hbF8xYzBkYTYyNGRlMDg3MDI3NDY3ODY3Mjk2ZDEwZmJkYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.049067,
+          30.581586
+        ]
+      },
+      "id": "Q5MDM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "移动摊贩吊灯",
+        "0_name": "移动摊贩吊灯",
+        "1_index": "24CDU112",
+        "3_link": "https://www.are.na/block/27990915",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MDkxNS9vcmlnaW5hbF8xYzg5NDUxOTk5MjRiNzRiNjNkNWIxNmVkYjU0Y2NmMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075342,
+          30.652815
+        ]
+      },
+      "id": "E1OTg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "休息长椅",
+        "0_name": "休息长椅",
+        "1_index": "24CDU107",
+        "3_link": "https://www.are.na/block/27946644",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NjY0NC9vcmlnaW5hbF9kNGMzODBhNDdlZjgwMTdlZTg5ZWNlYjNmMGViODVkMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "崇州樱缘谷"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.49723,
+          30.807293
+        ]
+      },
+      "id": "g5NTU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "纸巾吊勾（软管包铁钩）",
+        "0_name": "纸巾吊勾（软管包铁钩）",
+        "1_index": "24CDU105",
+        "3_link": "https://www.are.na/block/27945883",
+        "add": "鸡嘎嘎 青羊横街8号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NTg4My9vcmlnaW5hbF80ZmUxMjkwZWNmNjgwY2I3NjgzYTNiNGIxMDkzOWE5Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.037078,
+          30.660812
+        ]
+      },
+      "id": "M4MzA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "编织面凳子",
+        "0_name": "编织面凳子",
+        "1_index": "24CDU102",
+        "add": "星月东街九里欣园东南门",
+        "3_link": "https://www.are.na/block/27944583",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU4My9vcmlnaW5hbF82MjhhM2MwNmZjYTlkNGYzYTA2YmVhNWY2OGE5YWVkMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.049883,
+          30.708079
+        ]
+      },
+      "id": "U0MzU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "停车收费员休息站",
+        "0_name": "停车收费员休息站",
+        "1_index": "24CDU063",
+        "3_link": "https://www.are.na/block/27924458",
+        "add": "武侯区肥猪市街53号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQ1OC9vcmlnaW5hbF8yMWEzNGRmMDZhZjE3ZWMzNzAyMGUzZDNlZDNkMmMyNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.05116,
+          30.644771
+        ]
+      },
+      "id": "YxNTA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "拖把晾晒架",
+        "0_name": "拖把晾晒架",
+        "1_index": "24CDU062",
+        "3_link": "https://www.are.na/block/27924453",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQ1My9vcmlnaW5hbF8zM2I1ZDU1YjgzYzY2ODRjZmQ5YzJmMWJiZjg1YmIwNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "武侯区肥猪市街"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.052372,
+          30.644465
+        ]
+      },
+      "id": "c1OTU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "椅子",
+        "0_name": "椅子",
+        "1_index": "24CDU061",
+        "add": "武侯区洗面桥巷",
+        "3_link": "https://www.are.na/block/27924449",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQ0OS9vcmlnaW5hbF8yODA3ZWEyNDIwNjZlMzRiYmI1MTY5OTEyNTQzZDQyZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.049164,
+          30.640314
+        ]
+      },
+      "id": "cxODk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "管道围栏",
+        "0_name": "管道围栏",
+        "1_index": "24CDU056",
+        "3_link": "https://www.are.na/block/27924421",
+        "add": "兴蓉南三巷",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQyMS9vcmlnaW5hbF84NDg0ZDhkOTUyYjUxM2IxYWY3Y2JlYTMyNTA2M2FmOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.041992,
+          30.637095
+        ]
+      },
+      "id": "Y5NDE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "蔬菜售卖台",
+        "0_name": "蔬菜售卖台",
+        "1_index": "24CDU055",
+        "add": "武侯区兴蓉南街6号",
+        "3_link": "https://www.are.na/block/27924419",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQxOS9vcmlnaW5hbF8wZTRiYTI2ZTZkOTJhMzIwZDU1ZDIxMjgwNWQ5MTgzYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.040806,
+          30.637155
+        ]
+      },
+      "id": "U3MDA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "停车收费员休息站",
+        "0_name": "停车收费员休息站",
+        "1_index": "24CDU054",
+        "3_link": "https://www.are.na/block/27924409",
+        "add": "肖家河东一巷",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQwOS9vcmlnaW5hbF9jYzYwODhkZWMzNzNkNDBlN2VkODUwMDg2MGZjOTBhYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.043918,
+          30.636122
+        ]
+      },
+      "id": "M4MzU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "停车收费员休息站",
+        "0_name": "停车收费员休息站",
+        "1_index": "24CDU053",
+        "add": "肖家河环一巷和肖家河中街交界处",
+        "3_link": "https://www.are.na/block/27924407",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQwNy9vcmlnaW5hbF9mMDNlOTJlN2NiY2JmNGE1NjNkYTMzN2Q3NDA0ZjFjZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.042072,
+          30.636454
+        ]
+      },
+      "id": "QzNDY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "建材城吊挂轨道",
+        "0_name": "建材城吊挂轨道",
+        "1_index": "24CDU096",
+        "3_link": "https://www.are.na/block/27944572",
+        "add": "八益装饰材料城B区506",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU3Mi9vcmlnaW5hbF8zMTY3MDlhN2I5NDJjMTllY2JhNWYwY2FjMzZlMjhhZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.001201,
+          30.616513
+        ]
+      },
+      "id": "M4Mjg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "废品车车头",
+        "0_name": "废品车车头",
+        "1_index": "24CDU087",
+        "add": "大华街龙阳街交叉路口",
+        "3_link": "https://www.are.na/block/27944543",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU0My9vcmlnaW5hbF80MWY4ZDkyZjllZGZhMjM3ODczMDYyZTU5ZDRiZDgyMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.013984,
+          30.652422
+        ]
+      },
+      "id": "U1NzU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "晾晒套件",
+        "0_name": "晾晒套件",
+        "1_index": "24CDU086",
+        "3_link": "https://www.are.na/block/27944541",
+        "add": "少陵路 蜀馨苑A区",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU0MS9vcmlnaW5hbF9lMzE2MDFhNTcyYTgxOGY3NWJkNWVjN2RmYTIyOGFjOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.025384,
+          30.649561
+        ]
+      },
+      "id": "kzNjY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "工作间DIY灯箱",
+        "0_name": "工作间DIY灯箱",
+        "1_index": "24CDU083",
+        "3_link": "https://www.are.na/block/27944533",
+        "add": "南方家居产业园",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDUzMy9vcmlnaW5hbF82YWQzODc1NDdjM2M3NmU3ZjZmMzY5MzBlODdiMzNhOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.88365,
+          30.302078
+        ]
+      },
+      "id": "kxMDM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "add": "南方家居产业园",
+        "name": "工作间小凳子",
+        "0_name": "工作间小凳子",
+        "1_index": "24CDU082",
+        "3_link": "https://www.are.na/block/27944530",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDUzMC9vcmlnaW5hbF80MmI0MTliNzUyYmRkNjk0YTI3ZDAwMDMxMmFjOWQwOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.883371,
+          30.302426
+        ]
+      },
+      "id": "Q3Njc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "add": "张家巷21栋",
+        "name": "街头杂物收纳",
+        "0_name": "街头杂物收纳",
+        "1_index": "24CDU081",
+        "3_link": "https://www.are.na/block/27944528",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDUyOC9vcmlnaW5hbF84MzFkZmMyNmVkMmY1YmVlZjEyODM1MTY4NTBmMjJjNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.081018,
+          30.67996
+        ]
+      },
+      "id": "U5MjE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "地铁安保员带轮子的送菜车",
+        "1_index": "24CDU080",
+        "0_name": "地铁安保员带轮子的送菜车",
+        "add": "成都南站地铁站",
+        "3_link": "https://www.are.na/block/27944526",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDUyNi9vcmlnaW5hbF9iMmQ3YjM5OWJhNTkwOTQ2Mjk3ZjQyNTdlODcxMTk4Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.064946,
+          30.608941
+        ]
+      },
+      "id": "A2ODI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "伞墩子桌",
+        "0_name": "伞墩子桌",
+        "1_index": "24CDU079",
+        "add": "百吉街49号",
+        "3_link": "https://www.are.na/block/27944522",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDUyMi9vcmlnaW5hbF9hYzdlYzZlMDdmYTExODBiNWRiNjU2NzUyNmI1MDZmYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.031,
+          30.652754
+        ]
+      },
+      "id": "Y1NzE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "行道树挂帕子",
+        "0_name": "行道树挂帕子",
+        "add": "武侯祠东街",
+        "1_index": "24CDU078",
+        "3_link": "https://www.are.na/block/27944518",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDUxOC9vcmlnaW5hbF9iODE4MmUzMGQ4YWM4NDFkYmI4YzdhOGU1YjVhMGNlZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.044626,
+          30.645333
+        ]
+      },
+      "id": "IwOTE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "绑高的条凳",
+        "0_name": "绑高的条凳",
+        "add": "九里堤南路213号",
+        "1_index": "24CDU077",
+        "3_link": "https://www.are.na/block/27944517",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDUxNy9vcmlnaW5hbF9kZTVjYzNlNWU5MWRjODhiNDczZDA2Njg5MzE1MGQ1My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.054775,
+          30.692775
+        ]
+      },
+      "id": "M2NjA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "开窗临时挂衣杆",
+        "1_index": "24CDU076",
+        "0_name": "开窗临时挂衣杆",
+        "add": "内曹家巷105号",
+        "3_link": "https://www.are.na/block/27944515",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDUxNS9vcmlnaW5hbF9lY2QxZWEwYTZjY2JlYmU5NTY2ZWNmODIxOWUyNjNhMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.081469,
+          30.677035
+        ]
+      },
+      "id": "YzMjc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "移动垃圾桶",
+        "1_index": "24CDU075",
+        "0_name": "移动垃圾桶",
+        "3_link": "https://www.are.na/block/27944504",
+        "add": "大华街10号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDUwNC9vcmlnaW5hbF9iOWZkZjFlNTA1NGM3NTQ0MmVkZWRmZTgwNWNiZjg4Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.012332,
+          30.652883
+        ]
+      },
+      "id": "E3NzI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "磨刀工位",
+        "0_name": "磨刀工位",
+        "1_index": "24CDU074",
+        "add": "少陵横街34号院",
+        "3_link": "https://www.are.na/block/27944497",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDQ5Ny9vcmlnaW5hbF9jZTg2NWJjZmRiNGRlMDIzM2IwNzYwNTZkN2JhY2IyYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.028769,
+          30.652329
+        ]
+      },
+      "id": "gyOTE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "移动菜贩摊位",
+        "1_index": "24CDU067",
+        "add": "王家坝街和铜井巷交界口",
+        "0_name": "移动菜贩摊位",
+        "3_link": "https://www.are.na/block/29951695",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTk1MTY5NS9vcmlnaW5hbF8wZTY2OTBhMDY0ZGZkZjMyNjViMGE3MjY3MTljZDgzZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.074602,
+          30.650197
+        ]
+      },
+      "id": "YxMjE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "临时伞筐",
+        "0_name": "临时伞筐",
+        "add": "三圣街21号院",
+        "3_link": "https://www.are.na/block/29951504",
+        "1_index": "24CDU066",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTk1MTUwNC9vcmlnaW5hbF8wNDA1MGRjY2ViYTQyODY3ZTRlN2QwN2NjOGE5Y2VkNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.076984,
+          30.652458
+        ]
+      },
+      "id": "U2MDU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "移动书店车",
+        "0_name": "移动书店车",
+        "1_index": "24CDU065",
+        "3_link": "https://www.are.na/block/29951462",
+        "add": "玉林南路36号院",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTk1MTQ2Mi9vcmlnaW5hbF9hZWY0NjE4MDc5NWIwYmUyZTJlNmY3NDNlNjk4MTQ3My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.05912,
+          30.626353
+        ]
+      },
+      "id": "Q5MjQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "3_link": "https://www.are.na/block/27924003",
+        "name": "花盆",
+        "0_name": "花盆",
+        "add": "永丰立交旁修理店",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDAwMy9vcmlnaW5hbF8zZjRkMzJmOTRjNzAyZWY5MDdiNmEzY2IzMjJhMmEwNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "1_index": "24CDU047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.045811,
+          30.626072
+        ]
+      },
+      "id": "k5OTk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PVC水管 流水系统",
+        "add": "大华街麻将馆",
+        "3_link": "https://www.are.na/block/27866284",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI4NC9vcmlnaW5hbF8xOGRhODcwM2I4MjFmZjlhZmMzZWUzNjUyNmY5YWVkYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "0_name": "PVC水管 流水系统",
+        "1_index": "24CDU023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.014837,
+          30.652085
+        ]
+      },
+      "id": "gxODg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "一颗挂香蕉和灯的树",
+        "0_name": "一颗挂香蕉和灯的树",
+        "description": "行道树被纳入街铺使用范围",
+        "1_index": "24CDU028",
+        "3_link": "https://www.are.na/block/27866290",
+        "add": "贝双街",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI5MC9vcmlnaW5hbF8zNGE0NGE0NjI3NGJiMGNiM2E0OWQ2ZjZmNTAyZTAwYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.997499,
+          30.670654
+        ]
+      },
+      "id": "g3NjI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI4Ny9vcmlnaW5hbF80ZTk4ZTllZWZmMDExOGE4MGM5NzE2ZTQ1YTg5MGZmMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/27866287",
+        "add": "大华街麻将馆",
+        "description": "树枝被绑定在推开的窗户格栅上",
+        "name": "临时晾晒杆子",
+        "0_name": "临时晾晒杆子",
+        "1_index": "24CDU025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.014344,
+          30.652104
+        ]
+      },
+      "id": "UzMjk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "在底部缝上了一块纸壳底板",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI2OC9vcmlnaW5hbF9hNTVlMDdjYTg4ZDY2ZjFiZjEwNWRlMzY4ZjExOTEyZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/27866268",
+        "1_index": "24CDU009",
+        "0_name": "买菜车",
+        "name": "买菜车"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.01297,
+          30.65113
+        ]
+      },
+      "id": "g5OTc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyMzk5My9vcmlnaW5hbF9hMDcyNzdkMjMzZmYzM2RiZDc4NDY0MzE5YWI4MjYzMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "name": "五金店加固小板凳",
+        "0_name": "五金店加固小板凳",
+        "add": "永丰立交旁",
+        "3_link": "https://www.are.na/block/27923993",
+        "1_index": "24CDU046"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.046208,
+          30.626031
+        ]
+      },
+      "id": "EyOTE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "建材城吊顶",
+        "0_name": "建材城吊顶",
+        "description": "",
+        "1_index": "24CDU010",
+        "3_link": "https://www.are.na/block/29970105",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTk3MDEwNS9vcmlnaW5hbF82MTg5YTFmYzM1ZDIxMDVjNzAwYjE0MzQ2NTQ2NjBjNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "八益装饰材料城B区506"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.001517,
+          30.616603
+        ]
+      },
+      "id": "MxOTk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "修理店自制金属凳",
+        "0_name": "修理店自制金属凳",
+        "1_index": "24CDU045",
+        "add": "永丰立交旁",
+        "3_link": "https://www.are.na/block/27923987",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyMzk4Ny9vcmlnaW5hbF9kNWViOGVkMGI3OGJkNGY0NmVlYzNlYTBlNmExMzAzOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.045784,
+          30.626299
+        ]
+      },
+      "id": "kyMzE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "3_link": "https://www.are.na/block/27866271",
+        "name": "倒放的垃圾桶",
+        "0_name": "倒放的垃圾桶",
+        "1_index": "24CDU012",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI3MS9vcmlnaW5hbF9mNDYyYTgzOWE4MGRiZDNhOTI5N2M3ZjhmYjRhNjI0Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.037116,
+          30.681427
+        ]
+      },
+      "id": "E1NzU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "凳架子",
+        "1_index": "24CDU018",
+        "0_name": "凳架子",
+        "3_link": "https://www.are.na/block/27866278",
+        "add": "曹家巷",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI3OC9vcmlnaW5hbF9iMzJlMjg1MTNjNGVlNjFjMmM5ZTRhZDFkYTcyNDg1Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.081286,
+          30.678604
+        ]
+      },
+      "id": "M4OTE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "3_link": "https://www.are.na/block/27866291",
+        "add": "双流民和路",
+        "name": "卖花车",
+        "0_name": "卖花车",
+        "description": "塑料水瓶用作插花桶\n自制木条陈列架",
+        "1_index": "24CDU029",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI5MS9vcmlnaW5hbF8zMjRiMzQ1YzkxOWJkZDY2MmE1NmJlZDEyZDhhN2E2Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.144216,
+          30.55997
+        ]
+      },
+      "id": "M1NDg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "可伸缩布遮阳棚",
+        "0_name": "可伸缩布遮阳棚",
+        "add": "卉升花卉市场",
+        "3_link": "https://www.are.na/block/27866285",
+        "1_index": "24CDU024",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI4NS9vcmlnaW5hbF9kODY4NjJhNjYwZDdlOGRiODdkY2ExMDI1OTQ0ZjY3MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.166688,
+          30.573891
+        ]
+      },
+      "id": "A5ODY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "塑料桶花盆",
+        "0_name": "塑料桶花盆",
+        "description": "塑料桶改造的花盆",
+        "3_link": "https://www.are.na/block/27866273",
+        "1_index": "24PZH005",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI3My9vcmlnaW5hbF81OTE0Y2IwOTFjZDJkNmFjZDAwZDljNThhYjZjMzRiNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "米易独树村"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.977496,
+          27.013824
+        ]
+      },
+      "id": "M1ODM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "3_link": "https://www.are.na/block/27866262",
+        "name": "塑料袋盆栽",
+        "0_name": "塑料袋盆栽",
+        "1_index": "24PZH003",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI2Mi9vcmlnaW5hbF8xOTA2OThkZWM3NzJhZDdlZGMzODA3YjBkMjY2N2E2ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "米易独树村"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.974636,
+          27.014383
+        ]
+      },
+      "id": "A5MTg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "多功能挂肉钩",
+        "0_name": "多功能挂肉钩",
+        "1_index": "24CDU027",
+        "3_link": "https://www.are.na/block/27866289",
+        "add": "贝森路菜市场",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI4OS9vcmlnaW5hbF8zM2VhYzhmNWZjNTlkZGJjMjViNjM5MmRmMzE3OWE1Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.001984,
+          30.671328
+        ]
+      },
+      "id": "Y0Njg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg4NTg2Mi9vcmlnaW5hbF8zNWE3ZDZhZTI4OGQyNjQ4MzQ1YTQzNGNjNDY3MDMzNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "name": "大棚节点",
+        "0_name": "大棚节点",
+        "3_link": "https://www.are.na/block/27885862",
+        "1_index": "24CDU040"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.029981,
+          30.651684
+        ]
+      },
+      "id": "YzODM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI4MC9vcmlnaW5hbF9kOWIwNzJjYmJjMTNjMzdiMDhmZTY0YWY1MDBlZGIzNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/27866280",
+        "add": "金沙五里墩中三巷",
+        "1_index": "24CDU020",
+        "0_name": "户外窗帘",
+        "name": "户外窗帘"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.030287,
+          30.691668
+        ]
+      },
+      "id": "k3NjU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI3Ni9vcmlnaW5hbF8zMTlmZDZmZDJkNTFiMjkwNWY5MTQ3NDE5MThlZjkwMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/27866276",
+        "add": "金沙金栖路",
+        "1_index": "24CDU016",
+        "name": "手机支架保护罩",
+        "0_name": "手机支架保护罩"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.999329,
+          30.679397
+        ]
+      },
+      "id": "IwMTE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "拆除胶印",
+        "0_name": "拆除胶印",
+        "1_index": "24CDU039",
+        "3_link": "https://www.are.na/block/27866670",
+        "add": "一门社一楼",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjY3MC9vcmlnaW5hbF85ZmFjODdiOWU2YTkwNzQ1MjZkYjZjYmJiNTg2NGU5Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.024048,
+          30.650521
+        ]
+      },
+      "id": "A5MzQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "拖把晾晒架",
+        "0_name": "拖把晾晒架",
+        "1_index": "24CDU048",
+        "3_link": "https://www.are.na/block/27924012",
+        "add": "武侯区肖家河环三巷",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDAxMi9vcmlnaW5hbF80ZTBkOTQ1NzE4YzI2NjdjMTJhYTMzOWFlMGQwZGVmNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.039776,
+          30.633296
+        ]
+      },
+      "id": "A3Mjk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1_index": "24CDU033",
+        "name": "拖鞋货架",
+        "0_name": "拖鞋货架",
+        "add": "双流民和路",
+        "3_link": "https://www.are.na/block/27866296",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI5Ni9vcmlnaW5hbF9kMzNhN2QwYTllODA1YjdkMjgxYTg3YjU1YjZlZmUzNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.144393,
+          30.559993
+        ]
+      },
+      "id": "E1Mjg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "",
+        "1_index": "24CDU043",
+        "name": "拼接椅子",
+        "add": "神仙树公园",
+        "0_name": "拼接椅子",
+        "3_link": "https://www.are.na/block/27923967",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyMzk2Ny9vcmlnaW5hbF8wOTBkYjQyZjk3ZmRjNTczYzMzYmFjNmE1OGMxN2RlNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.045388,
+          30.615709
+        ]
+      },
+      "id": "E3MzQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "插线板防水罩子",
+        "0_name": "插线板防水罩子",
+        "description": "用矿泉水瓶子简易改造的防水方式",
+        "1_index": "24CDU013",
+        "3_link": "https://www.are.na/block/27866272",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI3Mi9vcmlnaW5hbF9iZGIzYmIyMjAxY2Q5NjI2ZGUxMDk4NzkyMDNkZmE3Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.034251,
+          30.681732
+        ]
+      },
+      "id": "g0MDU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "3_link": "https://www.are.na/block/27866261",
+        "name": "条凳鞋架",
+        "0_name": "条凳鞋架",
+        "description": "条凳堆叠起来的鞋架",
+        "1_index": "24CDU004",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI2MS9vcmlnaW5hbF9iMTRiYTVlZDhlODljNGZiY2U0OWQxOTYyM2JjYTkzZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "崇州樱缘谷"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.497562,
+          30.807542
+        ]
+      },
+      "id": "kxMjU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDAyMC9vcmlnaW5hbF80MWNkYzdlNjIxNzUxMjU3MDQwYjVkNzJmNDFjZGVhNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0Ijo2MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NjV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjY1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/27924020",
+        "1_index": "24CDU049",
+        "add": "肖家河西二巷",
+        "0_name": "某店铺悬挂收纳系统",
+        "name": "某店铺悬挂收纳系统"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.040484,
+          30.632336
+        ]
+      },
+      "id": "I4MDI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "沙发加椅子",
+        "3_link": "https://www.are.na/block/27864112",
+        "1_index": "24CDU002",
+        "0_name": "沙发加椅子",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NDExMi9vcmlnaW5hbF80MmVhN2JlMTY0YmI2YTRlNjE0ODgyODdkYzEyOTU0MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "description": "自行调整软硬度",
+        "add": "西二道街"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.053724,
+          30.674866
+        ]
+      },
+      "id": "M3OTA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "3_link": "https://www.are.na/block/27866624",
+        "name": "洗洁精瓶改造樱桃采摘篮",
+        "0_name": "洗洁精瓶改造樱桃采摘篮",
+        "1_index": "24PZH006",
+        "add": "米易独树村",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjYyNC9vcmlnaW5hbF82ODVlNzVmZDZjYmJjZGEyYmQ3MmQxYTU0YTljZDliYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.977442,
+          27.014412
+        ]
+      },
+      "id": "A0MzY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "洗鞋车",
+        "0_name": "洗鞋车",
+        "1_index": "24CDU037",
+        "description": "",
+        "add": "龙泉二中公交车站",
+        "3_link": "https://www.are.na/block/27866301",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjMwMS9vcmlnaW5hbF9lYjYyNWQyMTdmNTAwODZkNmM2ZTYwMDg5ZTZkODUxNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.254653,
+          30.568524
+        ]
+      },
+      "id": "gwMjU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "瓷砖拆除后的肌理",
+        "0_name": "瓷砖拆除后的肌理",
+        "1_index": "24CDU037",
+        "add": "西二道街",
+        "3_link": "https://www.are.na/block/27866608",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjYwOC9vcmlnaW5hbF8yMzFjZWE3NzZmYzZkNzg1MDkyM2MxMTRhMjBjMGY0YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.052474,
+          30.675448
+        ]
+      },
+      "id": "M0NzM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "电瓶车坡",
+        "0_name": "电瓶车坡",
+        "1_index": "24CDU003",
+        "description": "",
+        "3_link": "https://www.are.na/block/27864117",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NDExNy9vcmlnaW5hbF8zYTI2MzA5YTI4N2Y4ZWU3YTMxNzQwYjU3YWI3YTcyYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "西二道街"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.053348,
+          30.674866
+        ]
+      },
+      "id": "M0MTM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI2Ni9vcmlnaW5hbF84MjU1ZGRhMjExMTNmYmUwODYyMTlhMmZhNmQxMTM3Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/27866266",
+        "1_index": "24CDU007",
+        "name": "移动五金店",
+        "0_name": "移动五金店",
+        "description": "一辆用三轮车改造的移动五金店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.07177,
+          30.629936
+        ]
+      },
+      "id": "E1NTA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "窗户店的窗户集合",
+        "0_name": "窗户店的窗户集合",
+        "3_link": "https://www.are.na/block/27906845",
+        "add": "星月东街36号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkwNjg0NS9vcmlnaW5hbF8wNGNmYTliNDBiZWMxYTU3MWZlNmM3NzcxMzM5ZDhhNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "1_index": "24CDU041"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.050119,
+          30.707084
+        ]
+      },
+      "id": "E2NjI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "竹杆休息位",
+        "0_name": "竹杆休息位",
+        "description": "竹子在两棵树之间搭起了座椅",
+        "1_index": "24CDU005",
+        "3_link": "https://www.are.na/block/27866263",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI2My9vcmlnaW5hbF84YTVlMDJiMTU1NTFhYTUxNDdmZmMwNjQwZGMzOWQyZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "崇州樱缘谷"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.498448,
+          30.807252
+        ]
+      },
+      "id": "Q0OTE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "3_link": "https://www.are.na/block/27866275",
+        "add": "金沙五里墩中一巷",
+        "1_index": "24CDU015",
+        "name": "简易吊灯",
+        "0_name": "简易吊灯",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI3NS9vcmlnaW5hbF80NTU5OTlhMTZhNWJiMjJhMjhkZmU3NDkzNzMyYzljOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.030013,
+          30.692153
+        ]
+      },
+      "id": "AxODc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI2MC9vcmlnaW5hbF83NTI4MjQwNmZiOTEwM2NkNTc0NjRkZDIxNDg5MWQwNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/27866260",
+        "1_index": "24PZH002",
+        "description": "课桌椅上盖了一张瓷砖",
+        "name": "简易拼凑桌",
+        "0_name": "简易拼凑桌",
+        "add": "米易贤惠超市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.130011,
+          26.912733
+        ]
+      },
+      "id": "E2OTQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "简易拼凑桌2",
+        "3_link": "https://www.are.na/block/27866264",
+        "1_index": "24PZH004",
+        "0_name": "简易拼凑桌2",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI2NC9vcmlnaW5hbF84OTNiYTQ2MDJmMjBjNTQzYzU4ZDBhNjE4NTYwMDcwOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "description": "木基座上盖了一张瓷砖",
+        "add": "米易贤惠超市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.130162,
+          26.913125
+        ]
+      },
+      "id": "AwOTE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "细铁杆围合小院坝",
+        "0_name": "细铁杆围合小院坝",
+        "1_index": "24CDU035",
+        "add": "双流民和路",
+        "3_link": "https://www.are.na/block/27866299",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI5OS9vcmlnaW5hbF9kYzMxODZmMjZlNWUzMDBiMzdiODA0OGRjNjZmMzRkMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.144082,
+          30.560173
+        ]
+      },
+      "id": "k0MDg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "编织凳子",
+        "0_name": "编织凳子",
+        "description": "老匠人很多年前做的铁艺焊接小椅子",
+        "1_index": "24PZH001",
+        "3_link": "https://www.are.na/block/27866259",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI1OS9vcmlnaW5hbF9jMzM1Nzk3YjcxMjVkYWQ2MGY2ZjgzYTY4MGE4ZmZiYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "米易独树村"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.977555,
+          27.014775
+        ]
+      },
+      "id": "MzOTc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI4My9vcmlnaW5hbF9kZGU4NjhjYjEyZjFlZWMxNWI5Y2FlMzc3OTMxNmRlYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/27866283",
+        "add": "卉升花卉市场",
+        "1_index": "24CDU022",
+        "name": "编织板车",
+        "0_name": "编织板车"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.166934,
+          30.574242
+        ]
+      },
+      "id": "Q5Mjc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "编织椅子",
+        "0_name": "编织椅子",
+        "description": "我在双楠搞设计的编制椅主人温老板家头的老人又开始编板凳了",
+        "1_index": "24CDU008",
+        "3_link": "https://www.are.na/block/27866267",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI2Ny9vcmlnaW5hbF9iYzFkOTdiZGQ0ZWZhMmJjMmY1ODUyNzc2NmFhMWMzNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.026076,
+          30.651066
+        ]
+      },
+      "id": "Y2OTA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "编织椅子",
+        "1_index": "24CDU019",
+        "0_name": "编织椅子",
+        "add": "抚琴营康路",
+        "3_link": "https://www.are.na/block/27866279",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI3OS9vcmlnaW5hbF9iNTk1ZjYzYzJhNDdhZTY4ZTU3Y2E4MjMzYTk4N2IwMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.036289,
+          30.689205
+        ]
+      },
+      "id": "I0NTI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "3_link": "https://www.are.na/block/27866300",
+        "name": "老人买菜篮",
+        "0_name": "老人买菜篮",
+        "add": "中环路青羊大道",
+        "description": "自行车车筐改造",
+        "1_index": "24CDU036",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjMwMC9vcmlnaW5hbF8wMTY0ODgwZjE4MjQ0ZGNlYTkyNzA4NGRhNGUzNDk0OC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.006088,
+          30.659474
+        ]
+      },
+      "id": "U2ODI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "脚手架坡道",
+        "0_name": "脚手架坡道",
+        "1_index": "24CDU006",
+        "3_link": "https://www.are.na/block/27866265",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI2NS9vcmlnaW5hbF8wYmJkYjAzY2JiZDVjYzY0MTkxNDRlYzM1OGIxYWRlMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.519342,
+          30.791203
+        ]
+      },
+      "id": "U0ODE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "脚手架坡道 带扶手",
+        "0_name": "脚手架坡道 带扶手",
+        "1_index": "24CDU011",
+        "3_link": "https://www.are.na/block/27866270",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI3MC9vcmlnaW5hbF81MmFjMzlhZDlkZGMwNGNmYTJkODU4YTkxNmM3NTZhNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.519213,
+          30.790908
+        ]
+      },
+      "id": "AzODQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI3NC9vcmlnaW5hbF8xN2JmMTgyNWI0ZTEyY2Y2MGU5OTQ5YjI3NTg1Nzk4ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "name": "自制麻将桌",
+        "0_name": "自制麻将桌",
+        "1_index": "24CDU014",
+        "description": "木条木方自制的麻将桌，桌面是旧地毯裁剪成的一张桌布",
+        "3_link": "https://www.are.na/block/27866274",
+        "add": "金沙蜀金路12号街心公园"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.033854,
+          30.631413
+        ]
+      },
+      "id": "g5NDg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "自行车毛巾架",
+        "0_name": "自行车毛巾架",
+        "1_index": "24CDU038",
+        "add": "武侯区双楠街",
+        "3_link": "https://www.are.na/block/27866615",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjYxNS9vcmlnaW5hbF9mNDhhMTcxNjMwNjgxYzExNjc5YTBlMmY0MzA3NGMwYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.027181,
+          30.645758
+        ]
+      },
+      "id": "AxNDk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "花卉市场组合灯",
+        "0_name": "花卉市场组合灯",
+        "1_index": "24CDU034",
+        "3_link": "https://www.are.na/block/27866298",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI5OC9vcmlnaW5hbF9iZTUxZmJjNzllMTVkN2Y0NWQyZGM5YzczZTZiYTAyZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "卉升花市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.166838,
+          30.574095
+        ]
+      },
+      "id": "Y2MjI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI5Mi9vcmlnaW5hbF9iM2FlNGUwZTI2NWY5ZThjYTE3MDE2YjA5MmQzNmZhMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "3_link": "https://www.are.na/block/27866292",
+        "add": "贝森路29号",
+        "1_index": "24CDU030",
+        "name": "菜摊价签",
+        "0_name": "菜摊价签",
+        "description": "废纸板+手写价签"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.002188,
+          30.672015
+        ]
+      },
+      "id": "M4OTc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "蒸笼挂衣服",
+        "0_name": "蒸笼挂衣服",
+        "1_index": "24CDU026",
+        "3_link": "https://www.are.na/block/27866288",
+        "add": "贝森路菜市场",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI4OC9vcmlnaW5hbF8yOWJjNjkxMjg0Yzg5NWY1MjA3OTgwNjNlMzUyZmU5NS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.001657,
+          30.671055
+        ]
+      },
+      "id": "EyNjc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "转运筐墙",
+        "0_name": "转运筐墙",
+        "add": "抚琴营福巷",
+        "3_link": "https://www.are.na/block/27866282",
+        "1_index": "24CDU021",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI4Mi9vcmlnaW5hbF8zZjk5ZGY2NjIxMjYyM2NmYTNhNzM3N2IzZTI5ODkzMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.032931,
+          30.691438
+        ]
+      },
+      "id": "U0MTY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "轮胎盆栽",
+        "0_name": "轮胎盆栽",
+        "1_index": "24CDU031",
+        "3_link": "https://www.are.na/block/27866293",
+        "add": "双流民和路",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI5My9vcmlnaW5hbF85MGNiZDU1OWM2MjRkMGJkMDZkMTgyNjM4MjNjMzM2Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.144034,
+          30.559942
+        ]
+      },
+      "id": "ExNTc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "透气椅子",
+        "0_name": "透气椅子",
+        "1_index": "24CDU044",
+        "3_link": "https://www.are.na/block/27923978",
+        "add": "神仙树公园",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyMzk3OC9vcmlnaW5hbF82ZDU2YmM4MDA3ZmNlNDQ5ZTk3MDUzOWU4NWYyNTI5OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.045382,
+          30.614831
+        ]
+      },
+      "id": "AzOTY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "3_link": "https://www.are.na/block/27866295",
+        "name": "门中门，门上帘 特色场景",
+        "0_name": "门中门，门上帘 特色场景",
+        "1_index": "24CDU032",
+        "add": "双流民和路",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI5NS9vcmlnaW5hbF9lZTY5MjIxNmY2YWY1OGE2MGFkN2RiYjVjYWViZDA3Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.144581,
+          30.560021
+        ]
+      },
+      "id": "c0NzQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "靠背缺失的椅子",
+        "0_name": "靠背缺失的椅子",
+        "add": "神仙树公园",
+        "3_link": "https://www.are.na/block/27923937",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyMzkzNy9vcmlnaW5hbF9lMTlkYjNhY2RkM2JiN2RmNzkxMzQyZjNiYTJkZTg1Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "1_index": "24CDU042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.045044,
+          30.615242
+        ]
+      },
+      "id": "I0ODQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "顺丰载笼车",
+        "description": "可以被折叠收纳的货运车",
+        "0_name": "顺丰载笼车",
+        "1_index": "24CDU001",
+        "3_link": "https://www.are.na/block/27822435",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzgyMjQzNS9vcmlnaW5hbF84YjIyM2E3ZDI0YTgyNWFlOGViZWQzZjQ1MGU4ZWVhYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "星辉东路"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.083668,
+          30.675448
+        ]
+      },
+      "id": "MwOTU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "3_link": "https://www.are.na/block/27866277",
+        "add": "金沙蜀金路12号街心公园",
+        "description": "利用椅子稳固的四跟腿，再给椅子多加些支撑结构，就能作为活动的麻将底座来使用了。",
+        "name": "麻将桌桌腿",
+        "0_name": "麻将桌桌腿",
+        "1_index": "24CDU017",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzg2NjI3Ny9vcmlnaW5hbF9iYzIyYTViZmZlYWEwZGFmNDZiMDY3YWNiYWIxNDkyZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.034208,
+          30.631561
+        ]
+      },
+      "id": "k0Nzg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "民居外立面",
+        "1_index": "24CDU069",
+        "0_name": "民居外立面",
+        "3_link": "https://www.are.na/block/27944492",
+        "add": "彭州九峰山红房子休闲山庄",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDQ5Mi9vcmlnaW5hbF9kMzk5MWRlOWFmYTQ5ZWI0MWQwN2M3OGM4YjQ5ZDQwYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.85509,
+          31.309556
+        ]
+      },
+      "id": "gwMzc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "遮菜伞",
+        "1_index": "24CDU070",
+        "0_name": "遮菜伞",
+        "3_link": "https://www.are.na/block/27944493",
+        "add": "少陵东街1号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDQ5My9vcmlnaW5hbF9hMWJjNWE1YWQ2ZTZmZDllMzc2YzVjNmFhYWM0ODg4Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.027653,
+          30.651369
+        ]
+      },
+      "id": "A2Mzk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "玻璃桌",
+        "add": "浓园国际艺术村",
+        "0_name": "玻璃桌",
+        "1_index": "24CDU071",
+        "3_link": "https://www.are.na/block/27944494",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDQ5NC9vcmlnaW5hbF82MDZlMjk2ZGQxNzA4ODk1OTE1Yzk5NTUzOTRiYTI0ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.984523,
+          30.589639
+        ]
+      },
+      "id": "Y0NjM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "临时晾晒",
+        "name": "临时晾晒",
+        "1_index": "24CDU072",
+        "add": "红石住横街10号院",
+        "3_link": "https://www.are.na/block/27944495",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDQ5NS9vcmlnaW5hbF8yZWViNzA2Y2Q0NGY0YTRiOTE0MDk2NTgxZGIzZWMwMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.077547,
+          30.651582
+        ]
+      },
+      "id": "k5MjY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "临时衣架",
+        "0_name": "临时衣架",
+        "1_index": "24CDU073",
+        "add": "蓝羽羽毛球场",
+        "3_link": "https://www.are.na/block/27944496",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDQ5Ni9vcmlnaW5hbF8yNDg5ZDk1MTQ4YjhkZjZhNTlkOGMxNjlmYjE2YWUzNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.025657,
+          30.625929
+        ]
+      },
+      "id": "Q3NTI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "add": "盛华北路116号2栋附127号",
+        "name": "工地门把手",
+        "0_name": "工地门把手",
+        "1_index": "24CDU084",
+        "3_link": "https://www.are.na/block/27944535",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDUzNS9vcmlnaW5hbF9lYzBlOGQ2MjUyOGY3NWExODk4ZTNmMGRjN2NhZGQ4MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.047973,
+          30.561199
+        ]
+      },
+      "id": "gyMjU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "手机支架",
+        "0_name": "手机支架",
+        "1_index": "24CDU085",
+        "add": "双楠街280号8幢1层",
+        "3_link": "https://www.are.na/block/27944536",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDUzNi9vcmlnaW5hbF9kZTRmMzU2ZjI0ZDQ5NzM1YWZmNjJhOTQyNjgwMWRmYy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.024842,
+          30.649856
+        ]
+      },
+      "id": "Y5OTM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "移动板车上的阳伞",
+        "0_name": "移动板车上的阳伞",
+        "1_index": "24CDU085",
+        "3_link": "https://www.are.na/block/27944540",
+        "add": "成都新光路3-附4号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU0MC9vcmlnaW5hbF84YzczZTNlMTVkMmU2NzlhZjQ1ZjU0YTczOWYwOGM1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.055161,
+          30.618709
+        ]
+      },
+      "id": "U3Njg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "五金店小板凳",
+        "1_index": "24CDU088",
+        "0_name": "五金店小板凳",
+        "3_link": "https://www.are.na/block/27944547",
+        "add": "惠民街263号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU0Ny9vcmlnaW5hbF85YzA0NThiNjAxODIyMGZhZTIxMWM1MTgxZTA3MjY3MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.026097,
+          30.64527
+        ]
+      },
+      "id": "kwMTU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "垃圾桶广告牌",
+        "0_name": "垃圾桶广告牌",
+        "1_index": "24CDU089",
+        "3_link": "https://www.are.na/block/27944554",
+        "add": "菊乐路69号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU1NC9vcmlnaW5hbF82YWFiYmRmNzdjYTliZmVmZjI4YzQ0NTQzMjI3ZTY4Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.034283,
+          30.649506
+        ]
+      },
+      "id": "c4NDI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "磨刀工位",
+        "0_name": "磨刀工位",
+        "1_index": "24CDU092",
+        "3_link": "https://www.are.na/block/27944567",
+        "add": "龙安街10号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU2Ny9vcmlnaW5hbF8wOGNkOGQ0ZmY5M2M4OGIyYjU5ZTcxMWMzMzU1MjQzZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.006968,
+          30.652606
+        ]
+      },
+      "id": "YwMjc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "建材城陈列",
+        "0_name": "建材城陈列",
+        "add": "八益装饰材料城B区506",
+        "1_index": "24CDU093",
+        "3_link": "https://www.are.na/block/27944568",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU2OC9vcmlnaW5hbF8yYmU4NDg4MmRlYjg2Nzk3ODE2NjZkMmM4NmQ3MjlhMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.001002,
+          30.616419
+        ]
+      },
+      "id": "Q4MzM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "组合椅子",
+        "0_name": "组合椅子",
+        "1_index": "24CDU094",
+        "3_link": "https://www.are.na/block/27944570",
+        "add": "玉林中路16号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU3MC9vcmlnaW5hbF9kYWZlYzU2YzRiYTNiYjYzZGYwMTNhYjA5NjIxYTk0MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.055011,
+          30.627886
+        ]
+      },
+      "id": "g3MDM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "建材城瓷砖架",
+        "0_name": "建材城瓷砖架",
+        "1_index": "24CDU095",
+        "3_link": "https://www.are.na/block/27944571",
+        "add": "八益装饰材料城B区506",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU3MS9vcmlnaW5hbF9hMTU0NjlmZjcxZDZhNDkzMDk1MmI5ODJhMGRlZmU4Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.000691,
+          30.61629
+        ]
+      },
+      "id": "gxODI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "行道树广告牌",
+        "0_name": "行道树广告牌",
+        "1_index": "24CDU097",
+        "3_link": "https://www.are.na/block/27944573",
+        "add": "蓝草路33号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU3My9vcmlnaW5hbF8zNDAxNWY0Yzg2OWQ2NTUwODNiMzAxOGU1MDMxMWNkMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.050484,
+          30.630545
+        ]
+      },
+      "id": "Q3MjA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "临时鞋架",
+        "0_name": "临时鞋架",
+        "1_index": "24CDU098",
+        "3_link": "https://www.are.na/block/27944574",
+        "add": "星月东街舞东风",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU3NC9vcmlnaW5hbF9jOWIxOTY4MmY5ZGNlOGIzYWY3ZGEyMmJlMDhiNGJiZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.050452,
+          30.708365
+        ]
+      },
+      "id": "YyNDc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "猪肉铺天花杆件吊顶",
+        "0_name": "猪肉铺天花杆件吊顶",
+        "1_index": "24CDU099",
+        "3_link": "https://www.are.na/block/27944576",
+        "add": "彩虹街61号院",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU3Ni9vcmlnaW5hbF8xMGM0OTRhZDE1YTU4OWEzNzdhNmM2MmQ4OTZkYzBhMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.050312,
+          30.630369
+        ]
+      },
+      "id": "M4NjQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "卖花车",
+        "0_name": "卖花车",
+        "add": "红牌楼北街7号院",
+        "1_index": "24CDU100",
+        "3_link": "https://www.are.na/block/27944578",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk0NDU3OC9vcmlnaW5hbF82YWU1YmFjMmFmNzVjYjdiN2I2MjNlMzdiYzA4ZTdkMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.032481,
+          30.638982
+        ]
+      },
+      "id": "Q3NzM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "定制桌",
+        "name": "定制桌",
+        "1_index": "24CDU050",
+        "3_link": "https://www.are.na/block/27924034",
+        "add": "肖家河正街",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDAzNC9vcmlnaW5hbF8wMDdiMWNhMzE5MTk2OGU0YWVmMDIxOWNiNzZlZjhkNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.039283,
+          30.633517
+        ]
+      },
+      "id": "U3OTg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "自制垃圾铲",
+        "0_name": "自制垃圾铲",
+        "1_index": "24CDU051",
+        "add": "肖家河环二巷",
+        "3_link": "https://www.are.na/block/27924050",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDA1MC9vcmlnaW5hbF81OTMyNTNkNTZlOGE2NDA5NDQ0NTEzMWE1NWMyMTg5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.042137,
+          30.634423
+        ]
+      },
+      "id": "AzMDc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "定制垃圾桶推车",
+        "name": "定制垃圾桶推车",
+        "1_index": "24CDU052",
+        "3_link": "https://www.are.na/block/27924401",
+        "add": "创业路和九兴大道的交界处",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQwMS9vcmlnaW5hbF8xZWFiNTJjNGQ5ZTJmMGMyNWZjNzM0YTY2OWQ5ODEzMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.039819,
+          30.622125
+        ]
+      },
+      "id": "Q2ODQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "停车收费员休息站",
+        "0_name": "停车收费员休息站",
+        "add": "武侯区洗面桥巷",
+        "1_index": "24CDU057",
+        "3_link": "https://www.are.na/block/27924423",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQyMy9vcmlnaW5hbF81MGE4NjFkNzY3ZTJhYmFmOWM3YWRiMDdkZjgwMmMxNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.050623,
+          30.641494
+        ]
+      },
+      "id": "M2ODg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小区门口休息区",
+        "0_name": "小区门口休息区",
+        "add": "成都武侯区洗面桥巷8-附1号",
+        "3_link": "https://www.are.na/block/27924429",
+        "1_index": "24CDU058",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQyOS9vcmlnaW5hbF8zNzRjODZlM2U2YjY5OTE3ZmJlZjAyMzAwZDdkYTRmMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.048467,
+          30.639391
+        ]
+      },
+      "id": "gxNTA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "补洞",
+        "name": "补洞",
+        "1_index": "24CDU059",
+        "3_link": "https://www.are.na/block/27924434",
+        "add": "武侯区洗面桥巷",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQzNC9vcmlnaW5hbF8yMWVhMDQ3OWVmNTkyMzFmYjljMmIzODE0NTU5OTI3NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.050269,
+          30.640719
+        ]
+      },
+      "id": "gwNjQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "广告牌",
+        "0_name": "广告牌",
+        "add": "武侯区洗面桥巷",
+        "1_index": "24CDU060",
+        "3_link": "https://www.are.na/block/27924437",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQzNy9vcmlnaW5hbF85NGM2Nzc4YTM3YjViNmE2OTEwZWViMWExMWRiMTM5Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.050537,
+          30.64131
+        ]
+      },
+      "id": "M2NDk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "晾晒架",
+        "0_name": "晾晒架",
+        "1_index": "24CDU064",
+        "add": "武侯区二环路南三段辅路永丰立交旁",
+        "3_link": "https://www.are.na/block/27924492",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzkyNDQ5Mi9vcmlnaW5hbF83MDdhZmMzM2M2MDAwNGM0MzI2ZmYwNTA5ODBkZjYwMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.045098,
+          30.627526
+        ]
+      },
+      "id": "A2MDU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "餐馆菜单",
+        "0_name": "餐馆菜单",
+        "1_index": "24CDU104",
+        "3_link": "https://www.are.na/block/29972043",
+        "add": "鸡嘎嘎青羊横街8号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTk3MjA0My9vcmlnaW5hbF8zNjQzYmMzNmE0ZTk4MDFjMmM4MGMwMzdhNzE3NWQwZi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.036939,
+          30.660563
+        ]
+      },
+      "id": "MwNjQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三道街停车站",
+        "0_name": "三道街停车站",
+        "1_index": "24CDU108",
+        "3_link": "https://www.are.na/block/27969187",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk2OTE4Ny9vcmlnaW5hbF8yMTYxYzgzZjAyNDQ2OWMxYTdkYzY5ZTZjMWQ5YWI0Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "成都三道街"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.052898,
+          30.674746
+        ]
+      },
+      "id": "gzMjk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "收发室可开合收纳柜",
+        "0_name": "收发室可开合收纳柜",
+        "1_index": "24CDU110",
+        "3_link": "https://www.are.na/block/27990895",
+        "add": "东升街锦升苑",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MDg5NS9vcmlnaW5hbF8yYzhmZmM3YzRhZTExMWNlNDY4ZWE2MWU1M2UzMzEyMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.07627,
+          30.652713
+        ]
+      },
+      "id": "g5MDg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "自制麻将桌",
+        "name": "自制麻将桌",
+        "1_index": "24CDU118",
+        "3_link": "https://www.are.na/block/27990986",
+        "add": "成都东升广场",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MDk4Ni9vcmlnaW5hbF9mNDdiMGM1MmYxNmRhNDQ1YTA5YjI4ZTRlNDY5N2IzZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.074913,
+          30.653143
+        ]
+      },
+      "id": "c3MDU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "简易麻将桌",
+        "0_name": "简易麻将桌",
+        "1_index": "24CDU119",
+        "3_link": "https://www.are.na/block/27990992",
+        "add": "https://www.are.na/block/27990992",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MDk5Mi9vcmlnaW5hbF9jZTY0ZjVhNmIwY2MxMGFmOWUxYzM5MGQ1NGRiZDI0OC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.074785,
+          30.653046
+        ]
+      },
+      "id": "MzMjk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "路边圆杆收纳",
+        "0_name": "路边圆杆收纳",
+        "1_index": "24CDU120",
+        "3_link": "https://www.are.na/block/27990994",
+        "add": "东升街小区",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MDk5NC9vcmlnaW5hbF9hOTY4MTNjNDMwNWQ1MzFmZjBjOWE5NjcxNWQ5YWRhYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075546,
+          30.652081
+        ]
+      },
+      "id": "I4OTQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "油漆桶花盆",
+        "name": "油漆桶花盆",
+        "1_index": "24CDU121",
+        "3_link": "https://www.are.na/block/27990996",
+        "add": "东升街小区",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MDk5Ni9vcmlnaW5hbF9mMzM2OWU1MmVhMDE3ZjVjYjBhYzA3MzJjZGZlMzk4NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075428,
+          30.651892
+        ]
+      },
+      "id": "E1NTQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "收发室挂件收纳",
+        "name": "收发室挂件收纳",
+        "1_index": "24CDU122",
+        "add": "东升街锦升苑",
+        "3_link": "https://www.are.na/block/27991001",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MTAwMS9vcmlnaW5hbF9lZDFmNjBjYzA1ZGUxYTA1MjU2NzAxOTMwYjUxNWY4Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.076136,
+          30.652709
+        ]
+      },
+      "id": "Q0OTU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "收发室长凳",
+        "name": "收发室长凳",
+        "add": "东南里公寓",
+        "1_index": "24CDU123",
+        "3_link": "https://www.are.na/block/27991239",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MTIzOS9vcmlnaW5hbF9hMmFkODBkMzY2MmM0ZDc2NmRiYTk1ODJkZTIzN2E5YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.07957,
+          30.652676
+        ]
+      },
+      "id": "k0MjE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "麻将馆小卖部推车",
+        "name": "麻将馆小卖部推车",
+        "1_index": "24CDU124",
+        "3_link": "https://www.are.na/block/27991246",
+        "add": "锦江区拱背桥街",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MTI0Ni9vcmlnaW5hbF8yNzUxZjBjMTdlM2EyM2RmNjJiYTMyYzE3Mzk4Zjk0ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.076834,
+          30.649603
+        ]
+      },
+      "id": "A5MzU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "麻将边几2",
+        "0_name": "麻将边几2",
+        "1_index": "24CDU125",
+        "3_link": "https://www.are.na/block/27991251",
+        "add": "拱背桥",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MTI1MS9vcmlnaW5hbF9jZjA1ZjhkMmIwZjA1OWQ1NWYzNWNhZjE1ZmNmNTEzOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.076657,
+          30.649769
+        ]
+      },
+      "id": "Q4OTI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "钢筋搁架",
+        "name": "钢筋搁架",
+        "1_index": "24CDU126",
+        "3_link": "https://www.are.na/block/27991257",
+        "add": "拱背桥麻将馆",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MTI1Ny9vcmlnaW5hbF84ZDIzMWYwZmIzNDY2N2E0ZDgzN2EyYWY4MzdkNDgwOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.076753,
+          30.649695
+        ]
+      },
+      "id": "I3MDY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "花园围栏",
+        "name": "花园围栏",
+        "add": "拱背桥街和东南里交界处",
+        "1_index": "24CDU129",
+        "3_link": "https://www.are.na/block/27991294",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MTI5NC9vcmlnaW5hbF9kNDBjZmI4YmU5YjliY2M4NTQ1ZTgzZjllMDQyZGIzNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.076673,
+          30.649986
+        ]
+      },
+      "id": "k0NjA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "插板盖",
+        "0_name": "插板盖",
+        "1_index": "24CDU133",
+        "add": "锦江区青莲上街（近镗钯街端）",
+        "3_link": "https://www.are.na/block/27992787",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5Mjc4Ny9vcmlnaW5hbF8xZmMzYTA0NDQwZDFiOTI4M2E1NmVjNzljYzRhNTRjNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.081184,
+          30.649927
+        ]
+      },
+      "id": "E3Mzg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "菜店顶面收纳杆",
+        "name": "菜店顶面收纳杆",
+        "1_index": "24CDU134",
+        "add": "锦江区青莲上街（近镗钯街端）",
+        "3_link": "https://www.are.na/block/27992793",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5Mjc5My9vcmlnaW5hbF85MzliNGNjMWM3NDk5ZjZjMGRhY2FhYmE2MzhjOGE2NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.081023,
+          30.649857
+        ]
+      },
+      "id": "cwMzU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "顺丰胶带纸板告示牌",
+        "0_name": "顺丰胶带纸板告示牌",
+        "1_index": "24CDU135",
+        "3_link": "https://www.are.na/block/27992805",
+        "add": "锦江区镗钯街7号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MjgwNS9vcmlnaW5hbF8yNzhiNjJlYTUzNzJmMDBmZGM0YWZhMDAzYzdiN2YzOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.079242,
+          30.650138
+        ]
+      },
+      "id": "I4NDc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "自制鸟笼",
+        "0_name": "自制鸟笼",
+        "1_index": "24CDU136",
+        "3_link": "https://www.are.na/block/27992816",
+        "add": "锦江区青莲上街5号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNzk5MjgxNi9vcmlnaW5hbF9jZDdlMjM1ZGVhOTQ2M2QwN2FjNmIxOGIxOTQzYmE3MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.079832,
+          30.649524
+        ]
+      },
+      "id": "I2NjM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "烂凳子",
+        "0_name": "烂凳子",
+        "1_index": "24CDU137",
+        "3_link": "https://www.are.na/block/28011876",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMTg3Ni9vcmlnaW5hbF8zMjliODFmNjk0YWQxMGExNzA1ZjlkMTZmMjA3NzAxYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "下莲池街停车场"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075825,
+          30.649072
+        ]
+      },
+      "id": "ExMTM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "菜板边几",
+        "0_name": "菜板边几",
+        "1_index": "24CDU139",
+        "3_link": "https://www.are.na/block/28011883",
+        "add": "下莲池街12号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMTg4My9vcmlnaW5hbF8zODA0ZWJjZjU4ZjhlNDg3NmVhZmEwMTcyMzczMzBiYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.07604,
+          30.64922
+        ]
+      },
+      "id": "gzMzQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "行道树晾晒",
+        "name": "行道树晾晒",
+        "1_index": "24CDU140",
+        "3_link": "https://www.are.na/block/28011886",
+        "add": "下莲池街12号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMTg4Ni9vcmlnaW5hbF8xOGEwZGNhMTNiODk5ZmFlNjE4ZWNiODhkYzA0MmUxMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075922,
+          30.649119
+        ]
+      },
+      "id": "Q3NTg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "水泥墩子门挡",
+        "0_name": "水泥墩子门挡",
+        "1_index": "24CDU141",
+        "3_link": "https://www.are.na/block/28011891",
+        "add": "下莲池街7号",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMTg5MS9vcmlnaW5hbF85MzE3M2JmZGIzYTI5YzEzNGMyNWFjOWU0NTZkYzJmNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075353,
+          30.649105
+        ]
+      },
+      "id": "c5NzY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "角钢搁架",
+        "0_name": "角钢搁架",
+        "1_index": "24CDU143",
+        "3_link": "https://www.are.na/block/28011983",
+        "add": "王家坝街绿豆干杂",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMTk4My9vcmlnaW5hbF84MDM2NTQyYmJlYjZlYzkzNGQ4ZTJlMzlmNDNmOWU0Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.074908,
+          30.650055
+        ]
+      },
+      "id": "k4NzI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "抬高椅子",
+        "name": "抬高椅子",
+        "1_index": "24CDU144",
+        "add": "嘉瑞苑华美居",
+        "3_link": "https://www.are.na/block/29972414",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTk3MjQxNC9vcmlnaW5hbF80ODBhNGU1ZjhmYmQ3NjU0MTU5YjJmY2QxYTE5MzhmMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.012611,
+          30.651093
+        ]
+      },
+      "id": "U0OTY"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "干杂店简易货架",
+        "name": "干杂店简易货架",
+        "1_index": "24CDU145",
+        "add": "王家坝后街",
+        "3_link": "https://www.are.na/block/28012035",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMjAzNS9vcmlnaW5hbF85M2M2NWExMDEzZmIxOTE5NDZiOGI5NWRmMzdlMTM5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.073486,
+          30.649557
+        ]
+      },
+      "id": "E5MDQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "冰淇淋店冰柜罩子",
+        "name": "冰淇淋店冰柜罩子",
+        "1_index": "24CDU146",
+        "3_link": "https://www.are.na/block/28012045",
+        "add": "王家坝后街",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMjA0NS9vcmlnaW5hbF9hMmYxZjI1OTAxY2E5NmNlM2U1OTdiN2UwOWMyN2I4OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.073803,
+          30.649506
+        ]
+      },
+      "id": "Y3OTE"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "电线杆挂衣服",
+        "name": "电线杆挂衣服",
+        "1_index": "24CDU147",
+        "3_link": "https://www.are.na/block/28012073",
+        "add": "王家坝后街",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMjA3My9vcmlnaW5hbF8wZjI0OWRkMjg0ZjI1OTUwYzI1NmJkMmRjNDhjZGMyNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.07384,
+          30.649409
+        ]
+      },
+      "id": "IyNDI"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "自制收发室信箱",
+        "name": "自制收发室信箱",
+        "1_index": "24CDU148",
+        "3_link": "https://www.are.na/block/28012275",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMjI3NS9vcmlnaW5hbF8zODNiNzgxMjk1OTM3YjM3NTIyMjI0NTg5YTUzMDk1MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "add": "王家坝后街"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.073851,
+          30.649497
+        ]
+      },
+      "id": "I4ODg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "花店简易陈列",
+        "name": "花店简易陈列",
+        "1_index": "24CDU149",
+        "3_link": "https://www.are.na/block/29972468",
+        "add": "均隆街永洪花店",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyOTk3MjQ2OC9vcmlnaW5hbF9iMjdiY2E5YjdmN2M1MzJmYzBmOTgxZWU0NmExYzYxMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.086769,
+          30.654148
+        ]
+      },
+      "id": "QwNzQ"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "将就的封窗",
+        "0_name": "将就的封窗",
+        "1_index": "24CDU150",
+        "3_link": "https://www.are.na/block/28012283",
+        "add": "王家坝1号院",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMjI4My9vcmlnaW5hbF8yOGFmMDBhOTgyNGFlZDAxOGRlZGQ3MjhmM2YxNWI3OC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.074473,
+          30.649949
+        ]
+      },
+      "id": "g2NTc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "小摊贩推车",
+        "name": "小摊贩推车",
+        "1_index": "24CDU151",
+        "3_link": "https://www.are.na/block/28012506",
+        "add": "铜井巷菜市场",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMjUwNi9vcmlnaW5hbF84ZmVlZjRiYTZiZjQ1ZWIwNDNhNDQwMGE2ZTMyYTQ0Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075117,
+          30.650669
+        ]
+      },
+      "id": "Q1NDk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "小区自治景观",
+        "name": "小区自治景观",
+        "1_index": "24CDU152",
+        "3_link": "https://www.are.na/block/28012559",
+        "add": "王家坝1号院",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMjU1OS9vcmlnaW5hbF9jNWNjZjAzYjNjZDkxYTgwMWE3ZjI2MzVhYjBjYTBjMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.074779,
+          30.649862
+        ]
+      },
+      "id": "Y2ODA"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小区自治景观",
+        "0_name": "小区自治景观",
+        "1_index": "24CDU153",
+        "3_link": "https://www.are.na/block/28012562",
+        "add": "王家坝1号院",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMjU2Mi9vcmlnaW5hbF80OTI4MGNiOWVlNjQ5NTlhY2NjZjBjYzJkMTk4NDBiNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.074602,
+          30.649973
+        ]
+      },
+      "id": "c5NTU"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "板车移动摊贩",
+        "name": "板车移动摊贩",
+        "1_index": "24CDU154",
+        "add": "铜井巷菜市场",
+        "3_link": "https://www.are.na/block/28012578",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMjU3OC9vcmlnaW5hbF9lYjA4MzEwYzNjM2Y4MTNkYmE5NWY3MDI0YWNiYTljNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075235,
+          30.650683
+        ]
+      },
+      "id": "YwMzg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "0_name": "小区自治景观",
+        "name": "小区自治景观",
+        "1_index": "24CDU155",
+        "3_link": "https://www.are.na/block/2801258",
+        "add": "铜井巷菜市场小区",
+        "img": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyODAxMjU4My9vcmlnaW5hbF85YTg5YzJlMTYyOGEyMjEyZjQwMTY5Y2VlNWIyNTNhZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJmbGF0dGVuIjp7ImJhY2tncm91bmQiOnsiciI6MjAzLCJnIjoyMDMsImIiOjIwM319LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075316,
+          30.650692
+        ]
+      },
+      "id": "E3MjE"
+    }
+  ]
+}
