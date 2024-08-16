@@ -3,59 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map with Popup and Caption</title>
+    <title>Map with Popup and Custom Icons</title>
     <style>
         body, html { margin: 0; padding: 0; height: 100%; }
         #map { width: 100%; height: 100vh; }
 
-        /* 自定义弹窗样式 */
         .mapboxgl-popup {
-            background: rgba(255, 0, 0, 0.5); /* 弹窗背景颜色 */
-            border-radius: 5px; /* 圆角 */
-            padding: 5px; /* 内边距 */
-            max-width: 400px; /* 最大宽度 */
-            box-shadow: 0 0 0px rgba(0, 0, 0, 0.5); /* 阴影 */
-            pointer-events: auto; /* 确保弹窗可点击 */
+            background: rgba(255, 0, 0, 0.5);
+            border-radius: 5px;
+            padding: 5px;
+            max-width: 400px;
+            box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+            pointer-events: auto;
         }
 
         .mapboxgl-popup-content {
-            background: rgba(0, 0, 0, 0)!important;  /* 内容区域背景颜色 */
-            padding: 0; /* 去掉内容内边距 */
-            color: black; /* 字体颜色 */
+            background: rgba(0, 0, 0, 0)!important;
+            padding: 0;
+            color: white;
         }
 
         .mapboxgl-popup img {
-            max-width: 100%; /* 确保图片不会超出弹窗的宽度 */
+            max-width: 100%;
         }
 
         .mapboxgl-popup a {
-            color: white; /* 链接颜色 */
-            text-decoration: underline; /* 链接下划线 */
+            color: white!important;
+            text-decoration: underline;
         }
 
-        /* 自定义标题样式 */
         .caption {
-            position: absolute; /* 绝对定位 */
-            background: rgba(255, 255, 255, 0.8); /* 半透明背景 */
-            padding: 5px; /* 内边距 */
-            border-radius: 3px; /* 圆角 */
-            color: #000; /* 字体颜色 */
-            font-size: 14px; /* 字体大小 */
-            font-weight: bold; /* 字体粗细 */
-            text-align: center; /* 文字居中 */
-            pointer-events: none; /* 确保标题不干扰鼠标事件 */
-            visibility: hidden; /* 初始隐藏标题 */
-            white-space: nowrap; /* 不换行 */
-            z-index: 10; /* 确保标题在其他元素之上 */
+            position: absolute;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 5px;
+            border-radius: 3px;
+            color: #000;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            pointer-events: none;
+            visibility: hidden;
+            white-space: nowrap;
+            z-index: 10;
             font: 12px/20px 'Open Sans', sans-serif;
         }
+
+        .marker {
+            display: block;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            padding: 0;
+        }
     </style>
-    <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.6.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.6.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
 <div id="map"></div>
-<div id="caption" class="caption"></div> <!-- 用于显示标题 -->
+<div id="caption" class="caption"></div>
 
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiYWlsaW56aTUyOCIsImEiOiJjbHp0ZXQxZ3oyY2JuMnJyNHdxc2xndW94In0.1rfDN-c2Pjk5TztXwd0OLg';
@@ -67,7 +73,6 @@
         zoom: 12
     });
 
-    // 添加 Geolocate 控件
     map.addControl(
         new mapboxgl.GeolocateControl({
             positionOptions: {
@@ -76,20 +81,18 @@
             trackUserLocation: true,
             showUserHeading: true
         }),
-        'top-left' // 控件位置
+        'top-left'
     );
 
-    // 添加缩放控件
     map.addControl(new mapboxgl.NavigationControl(), 'top-left');
 
     map.on('load', function() {
-        // Add GeoJSON data source
+        // Load and display polygons
         map.addSource('geojson-data', {
             type: 'geojson',
             data: 'wts2024_0814.geojson'
         });
 
-        // Add layer for polygons
         map.addLayer({
             id: 'polygons',
             type: 'fill',
@@ -101,7 +104,6 @@
             }
         });
 
-        // 添加边框虚线
         map.addLayer({
             'id': 'polygon-border',
             'type': 'line',
@@ -110,12 +112,11 @@
             'paint': {
                 'line-color': '#00ff88',
                 'line-width': 6,
-                'line-dasharray': [3, 3], // 虚线样式
-                'line-cap': 'round' // 线条端点为圆角
+                'line-dasharray': [3, 3],
+                'line-cap': 'round'
             }
         });
 
-        // Add layer for points
         map.addLayer({
             id: 'points',
             type: 'circle',
@@ -128,7 +129,39 @@
             }
         });
 
-        // Add click event to display popup
+        // Load and display custom icons
+        fetch('wts2024_png.geojson')
+            .then(response => response.json())
+            .then(data => {
+                if (data.type === 'FeatureCollection') {
+                    data.features.forEach(function (feature) {
+                        if (feature.properties['0_png']) {
+                            const el = document.createElement('div');
+                            el.className = 'marker';
+                            el.style.backgroundImage = `url(${feature.properties['0_png']})`;
+                            el.style.width = '352px';
+                            el.style.height = '528px';
+                            el.style.backgroundSize = '100%';
+
+                            new mapboxgl.Marker(el)
+                                .setLngLat(feature.geometry.coordinates)
+                                .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(`
+                                    <div style="font-size: 16px; font-weight: bold; margin-bottom: 10px;">${feature.properties.name || ''}</div>
+                                    <p style="margin-bottom: 10px;">${feature.properties['1_index'] || '#'}</p>
+                                    <p style="margin-bottom: 10px;">${feature.properties.description || ''}</p>
+                                    <img src="${feature.properties.img || ''}" alt="${feature.properties.name || ''}" style="width: 100%; height: auto; margin-bottom: 10px;">
+                                    <a href="${feature.properties['3_link'] || '#'}" target="_blank" style="font: open sans; font-size: 14px; color: #007cbf; display: block; margin-top: 10px;">查看大图</a>
+                                `))
+                                .addTo(map);
+                        }
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('Error loading or parsing GeoJSON:', error);
+            });
+
+        // Handle point hover and click events
         map.on('click', 'points', function(e) {
             const features = e.features[0];
             const name = features.properties.name || '未命名';
@@ -149,33 +182,28 @@
                 .addTo(map);
         });
 
-        // Show caption on hover
         map.on('mouseenter', 'points', function(e) {
             const features = e.features[0];
             const name = features.properties.name || '未命名';
             const index = features.properties['1_index'] || '#';
-            
+
             const captionText = `${index} ${name}`;
             const coordinates = e.lngLat;
 
-            // Update caption content and position
             const caption = document.getElementById('caption');
             caption.textContent = captionText;
             caption.style.visibility = 'visible';
-            
-            // Calculate the pixel coordinates for the caption
+
             const pixelCoords = map.project(coordinates);
             caption.style.left = `${pixelCoords.x}px`;
             caption.style.top = `${pixelCoords.y}px`;
         });
 
-        // Hide caption on mouse leave
         map.on('mouseleave', 'points', function() {
             const caption = document.getElementById('caption');
             caption.style.visibility = 'hidden';
         });
 
-        // Change cursor to pointer on hover
         map.on('mouseenter', 'points', function() {
             map.getCanvas().style.cursor = 'pointer';
         });
