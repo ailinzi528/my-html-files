@@ -129,30 +129,6 @@
             }
         });
 
-        // Load and display custom icons
-        fetch('wts2024_png.geojson')
-            .then(response => response.json())
-            .then(data => {
-                if (data.type === 'FeatureCollection') {
-                    data.features.forEach(function (feature) {
-                        if (feature.properties['0_png']) {
-                            const el = document.createElement('div');
-                            el.className = 'marker';
-                            el.style.backgroundImage = `url(${feature.properties['0_png']})`;
-                            el.style.width = '352px';
-                            el.style.height = '528px';
-                            el.style.backgroundSize = '100%';
-
-                            new mapboxgl.Marker(el)
-                                .setLngLat(feature.geometry.coordinates)
-                                .addTo(map);
-                        }
-                    });
-                }
-            })
-            .catch(error => {
-                console.error('Error loading or parsing GeoJSON:', error);
-            });
 
         // Handle point hover and click events
         map.on('click', 'points', function(e) {
