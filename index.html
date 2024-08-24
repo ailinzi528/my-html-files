@@ -104,18 +104,7 @@
             }
         });
 
-        map.addLayer({
-            'id': 'polygon-border',
-            'type': 'line',
-            'source': 'geojson-data',
-            'filter': ['==', '$type', 'Polygon'],
-            'paint': {
-                'line-color': '#00ff88',
-                'line-width': 6,
-                'line-dasharray': [3, 3],
-                'line-cap': 'round'
-            }
-        });
+
 
         map.addLayer({
             id: 'points',
