@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map with Bottom Panel</title>
+    <title>Map with Auto-Contrast Text Popup</title>
     
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css' rel='stylesheet' />
@@ -28,151 +28,137 @@
             transform: translate(-50%, -100%);
         }
 
-        /* 底部抽屉弹窗 (Bottom Sheet) - 无模糊简约背景 */
-        .bottom-sheet {
-            position: fixed !important;
-            left: 0 !important;
-            bottom: 0 !important;
-            width: 100% !important;
-            height: 50vh !important;
-            max-height: 500px !important;
-            background-color: #ffffff !important;
-            box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.15) !important;
-            z-index: 999999 !important;
-            
-            transform: translateY(120%) !important;
-            transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1) !important;
-            
-            display: flex;
-            flex-direction: column;
-            box-sizing: border-box;
+        /* Mapbox Popup 容器基础设置 */
+        .mapboxgl-popup {
+            max-width: 400px !important;
         }
 
-        /* 激活状态 */
-        .bottom-sheet.active {
-            transform: translateY(0%) !important;
-        }
-
-        /* 关闭按钮：浅黄底色 */
-        .close-btn {
-            position: absolute;
-            top: 12px;
-            right: 16px;
-            background: #fff8c5;
-            border: none;
-            width: 32px;
-            height: 32px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 18px;
-            color: #333;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1000000;
-        }
-        .close-btn:hover { background: #ffee00; }
-
-        /* 内容布局 */
-        .sheet-content {
-            display: flex;
-            height: 100%;
-            padding: 24px;
-            gap: 28px;
-            box-sizing: border-box;
-            overflow-y: auto;
-        }
-
-        /* 竖图媒体容器：锁定 3:4 宽高比 */
-        .sheet-media {
-            flex: 0 0 auto;
-            height: 100%;
-            aspect-ratio: 3 / 4;
-            background-color: #f8f8f8;
-            border-radius: 6px;
+        .mapboxgl-popup-content {
+            padding: 0 !important;
+            border-radius: 8px;
             overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+            background: transparent !important;
         }
 
-        /* 图片铺满与 GPU 加速渲染 */
-        .sheet-media img {
+        /* 整体可点击卡片容器 (3:4 宽高比) */
+        .popup-card-link {
+            display: block;
+            position: relative;
+            width: 400px;
+            aspect-ratio: 3 / 4;
+            text-decoration: none;
+            overflow: hidden;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        /* 底图样式 */
+        .popup-bg-img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             display: block;
+            transition: filter 0.5s ease, transform 0.5s ease;
             image-rendering: -webkit-optimize-contrast;
             image-rendering: high-quality;
-            transform: translateZ(0);
+            will-change: filter, transform;
         }
 
-        .sheet-info {
-            flex: 1;
+        .popup-card-link:hover .popup-bg-img {
+            filter: blur(5px);
+            transform: scale(1.00);
+        }
+
+        /* 遮罩文字层：默认偏左淡出 */
+        .popup-overlay {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            padding: 24px 20px;
+            box-sizing: border-box;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: flex-start;
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            pointer-events: none;
         }
 
-        .sheet-header-title {
+        .popup-card-link:hover .popup-overlay {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* 🌟 1. 当图片偏暗时：极简纯白字，无阴影无黑描边 */
+        .popup-overlay.dark-bg {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.1); /* 极其轻微的底色仅作提亮区分 */
+        }
+        .popup-overlay.dark-bg .popup-index { color: rgba(255, 255, 255, 0.9); }
+        .popup-overlay.dark-bg .popup-title { color: #ffffff; text-shadow: none; }
+        .popup-overlay.dark-bg .popup-meta { color: rgba(255, 255, 255, 0.85); text-shadow: none; }
+        .popup-overlay.dark-bg .popup-meta-label { color: rgba(255, 255, 255, 0.6); }
+
+        /* 🌟 2. 当图片偏亮时：纯黑字 + 清爽半透明白背景 */
+        .popup-overlay.light-bg {
+            color: #111111;
+            background: rgba(255, 255, 255, 0.1); /* 通透的清爽白色底 */
+        }
+        .popup-overlay.light-bg .popup-index { color: rgba(0, 0, 0, 1); }
+        .popup-overlay.light-bg .popup-title { color: #111111; text-shadow: none; }
+        .popup-overlay.light-bg .popup-meta { color: rgba(0, 0, 0, 1); text-shadow: none; }
+        .popup-overlay.light-bg .popup-meta-label { color: rgba(0, 0, 0, 1); }
+
+        .popup-index {
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .popup-title {
             font-size: 22px;
-            font-weight: 600;
-            color: #111;
+            font-weight: 700;
+            line-height: 1.25;
             margin: 0 0 16px 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-shadow: none !important; /* 彻底移除阴影/描边 */
         }
 
-        /* 标题左对齐，具体内容右对齐且标题不折行 */
-        .info-row {
+        .popup-meta {
+            margin-top: auto;
+            font-size: 13px;
+            line-height: 1.6;
+            text-shadow: none !important;
+        }
+
+        .popup-meta-row {
             display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 12px;
-            font-size: 14px;
-            line-height: 1.5;
-            gap: 16px;
+            gap: 8px;
+            margin-bottom: 2px;
         }
 
-        .info-label {
-            color: #666;
+        .popup-meta-label {
             flex-shrink: 0;
-            white-space: nowrap;
-            text-align: left;
         }
 
-        .info-value {
-            color: #111;
-            text-align: right;
-            word-break: break-word;
+        /* 关闭按钮：极简清爽风格 */
+        .mapboxgl-popup-close-button {
+            font-size: 18px;
+            color: #666 !important;
+            padding: 6px 10px !important;
+            z-index: 10;
+            background: transparent !important;
+            border-radius: 0 8px 0 8px;
+            text-shadow: none !important;
         }
-
-        .sheet-footer {
-            margin-top: 15px;
-        }
-
-        /* 详情按钮：黄色主调样式 */
-        .detail-btn {
-            display: block;
-            width: 100%;
-            padding: 10px 0;
-            border: 1.5px solid #ffee00;
-            background-color: #ffee00;
-            color: #111;
-            text-align: center;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 600;
-            transition: all 0.2s ease;
-            border-radius: 4px;
-        }
-        .detail-btn:hover {
-            background-color: #e6d700;
-            border-color: #e6d700;
-        }
-
-        @media (max-width: 768px) {
-            .bottom-sheet { height: 70vh !important; }
-            .sheet-content { flex-direction: column; padding: 16px; }
-            .sheet-media { width: 100%; height: auto; max-height: 250px; }
+        .mapboxgl-popup-close-button:hover {
+            background-color: rgba(0, 0, 0, 0.08) !important;
+            color: #000 !important;
         }
     </style>
 </head>
@@ -181,39 +167,9 @@
 <div id="map"></div>
 <div id="caption" class="caption"></div>
 
-<div id="bottom-sheet" class="bottom-sheet">
-    <button class="close-btn" id="close-sheet">✕</button>
-    <div class="sheet-content">
-        <div class="sheet-media">
-            <img id="sheet-img" src="" alt="preview">
-        </div>
-        <div class="sheet-info">
-            <div>
-                <h2 id="sheet-title" class="sheet-header-title">Title</h2>
-                <div class="info-row">
-                    <span class="info-label">编号 / Index</span>
-                    <span id="sheet-index" class="info-value">-</span>
-                </div>
-                <div class="info-row">
-                    <span class="info-label">位置 / Location</span>
-                    <span id="sheet-add" class="info-value">-</span>
-                </div>
-                <div class="info-row">
-                    <span class="info-label">描述 / Description</span>
-                    <span id="sheet-desc" class="info-value">-</span>
-                </div>
-            </div>
-            <div class="sheet-footer">
-                <a id="sheet-link" href="#" target="_blank" class="detail-btn">More detail</a>
-            </div>
-        </div>
-    </div>
-</div>
-
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiYWlsaW56aTUyOCIsImEiOiJjbHp0ZXQxZ3oyY2JuMnJyNHdxc2xndW94In0.1rfDN-c2Pjk5TztXwd0OLg';
 
-    // 📍 临界切换层级：18
     const SWITCH_ZOOM = 18;
 
     const map = new mapboxgl.Map({
@@ -234,20 +190,57 @@
 
     map.addControl(new mapboxgl.NavigationControl(), 'top-left');
 
-    const bottomSheet = document.getElementById('bottom-sheet');
-    const closeBtn = document.getElementById('close-sheet');
-
+    let currentPopup = null;
     let selectedFeatureId = null;
 
-    function openBottomSheet(properties) {
-        document.getElementById('sheet-title').innerText = properties.name || properties['0_name'] || '未命名';
-        document.getElementById('sheet-index').innerText = properties['1_index'] || '-';
-        document.getElementById('sheet-add').innerText = properties.add || '-';
-        document.getElementById('sheet-desc').innerText = properties.description || properties.desc || '-';
+    // 计算图片平均亮度的算法函数
+    function getImageBrightness(imgElement, callback) {
+        const img = new Image();
+        img.crossOrigin = "Anonymous";
+        img.src = imgElement.src;
+
+        img.onload = function() {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            canvas.width = 50;
+            canvas.height = 50;
+            ctx.drawImage(img, 0, 0, 50, 50);
+
+            try {
+                const imageData = ctx.getImageData(0, 0, 50, 50);
+                const data = imageData.data;
+                let r, g, b, avg;
+                let colorSum = 0;
+
+                for (let x = 0, len = data.length; x < len; x += 4) {
+                    r = data[x];
+                    g = data[x + 1];
+                    b = data[x + 2];
+                    avg = Math.floor(0.2126 * r + 0.7152 * g + 0.0722 * b);
+                    colorSum += avg;
+                }
+
+                const brightness = Math.floor(colorSum / (50 * 50));
+                callback(brightness);
+            } catch (e) {
+                console.log('图片跨域采样降级:', e);
+                callback(100);
+            }
+        };
+
+        img.onerror = function() {
+            callback(100);
+        };
+    }
+
+    function openPopup(coordinates, properties) {
+        if (currentPopup) {
+            currentPopup.remove();
+        }
 
         let rawImgUrl = properties.img || properties.image || '';
 
-        // 自动拦截并重构 Are.na 链接的图片配置
         if (rawImgUrl.includes('images.are.na')) {
             try {
                 const base64Str = rawImgUrl.split('images.are.na/')[1];
@@ -272,43 +265,82 @@
             }
         }
 
-        document.getElementById('sheet-img').src = rawImgUrl;
-        document.getElementById('sheet-link').href = properties['3_link'] || '#';
+        const title = properties.name || properties['0_name'] || '未命名';
+        const index = properties['1_index'] ? `[ ${properties['1_index']} ]` : '';
+        const add = properties.add || '-';
+        const desc = properties.description || properties.desc || '-';
+        const link = properties['3_link'] || '#';
 
-        bottomSheet.classList.add('active');
-    }
+        const popupHTML = `
+            <a href="${link}" target="_blank" class="popup-card-link">
+                <img id="active-popup-img" class="popup-bg-img" src="${rawImgUrl}" alt="${title}">
+                <div id="active-popup-overlay" class="popup-overlay dark-bg">
+                    ${index ? `<div class="popup-index">${index}</div>` : ''}
+                    <h3 class="popup-title">${title}</h3>
+                    <div class="popup-meta">
+                        <div class="popup-meta-row">
+                            <span class="popup-meta-label">Location:</span>
+                            <span>${add}</span>
+                        </div>
+                        <div class="popup-meta-row">
+                            <span class="popup-meta-label">Desc:</span>
+                            <span>${desc}</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        `;
 
-    function closeBottomSheet() {
-        bottomSheet.classList.remove('active');
-        
-        if (selectedFeatureId !== null) {
-            map.setFeatureState(
-                { source: 'geojson-data', id: selectedFeatureId },
-                { selected: false }
-            );
-            selectedFeatureId = null;
+        currentPopup = new mapboxgl.Popup({
+            closeButton: true,
+            closeOnClick: false,
+            offset: 25
+        })
+        .setLngLat(coordinates)
+        .setHTML(popupHTML)
+        .addTo(map);
+
+        const imgElement = document.getElementById('active-popup-img');
+        const overlayElement = document.getElementById('active-popup-overlay');
+
+        if (imgElement && overlayElement) {
+            getImageBrightness(imgElement, function(brightness) {
+                if (brightness > 128) {
+                    overlayElement.classList.remove('dark-bg');
+                    overlayElement.classList.add('light-bg');
+                } else {
+                    overlayElement.classList.remove('light-bg');
+                    overlayElement.classList.add('dark-bg');
+                }
+            });
         }
+
+        currentPopup.on('close', function() {
+            if (selectedFeatureId !== null) {
+                map.setFeatureState(
+                    { source: 'geojson-data', id: selectedFeatureId },
+                    { selected: false }
+                );
+                selectedFeatureId = null;
+            }
+        });
     }
 
-    closeBtn.addEventListener('click', closeBottomSheet);
-
-    // 🌟 平移移动 (drag) 时保持弹窗打开；仅在滚动/缩放/旋转时自动关闭弹窗
-    map.on('zoomstart', closeBottomSheet);
-    map.on('wheel', closeBottomSheet);
-    map.on('pitchstart', closeBottomSheet);
-    map.on('rotatestart', closeBottomSheet);
+    map.on('zoomstart', () => { if (currentPopup) currentPopup.remove(); });
+    map.on('wheel', () => { if (currentPopup) currentPopup.remove(); });
+    map.on('pitchstart', () => { if (currentPopup) currentPopup.remove(); });
+    map.on('rotatestart', () => { if (currentPopup) currentPopup.remove(); });
 
     map.on('load', function() {
         map.addSource('geojson-data', {
             type: 'geojson',
             data: 'wts2024_0825.geojson',
             cluster: true,
-            clusterMaxZoom: SWITCH_ZOOM - 1, // 17
-            clusterRadius: 100,              // 保持大聚合半径，防止离散过早
+            clusterMaxZoom: SWITCH_ZOOM - 1,
+            clusterRadius: 100,
             generateId: true
         });
 
-        // 1. 多点聚合 Cluster 圈圈 (Zoom < 18)
         map.addLayer({
             id: 'clusters',
             type: 'circle',
@@ -320,7 +352,6 @@
             }
         });
 
-        // 1-B. 多点聚合数字 (Zoom < 18)
         map.addLayer({
             id: 'cluster-count',
             type: 'symbol',
@@ -333,7 +364,6 @@
             }
         });
 
-        // 2. 单点伪装 Cluster 圈圈 (Zoom < 18，显示为数字 1 的黄色大圈)
         map.addLayer({
             id: 'single-point-as-cluster',
             type: 'circle',
@@ -345,7 +375,6 @@
             }
         });
 
-        // 2-B. 单点伪装数字 '1'
         map.addLayer({
             id: 'single-point-as-cluster-count',
             type: 'symbol',
@@ -358,7 +387,6 @@
             }
         });
 
-        // 3. 独立 Pin 线圈底层 (Zoom >= 18)
         map.addLayer({
             id: 'unclustered-point-outer',
             type: 'circle',
@@ -382,7 +410,6 @@
             }
         });
 
-        // 4. 独立 Pin 中间圆点顶层 (Zoom >= 18)
         map.addLayer({
             id: 'unclustered-point-inner',
             type: 'circle',
@@ -399,11 +426,11 @@
             }
         });
 
-        // 点击独立线圈 Pin (Zoom >= 18)
         map.on('click', 'unclustered-point-outer', function(e) {
             if (!e.features || !e.features.length) return;
 
             const feature = e.features[0];
+            const coordinates = feature.geometry.coordinates.slice();
 
             if (selectedFeatureId !== null) {
                 map.setFeatureState(
@@ -418,10 +445,9 @@
                 { selected: true }
             );
 
-            openBottomSheet(feature.properties);
+            openPopup(coordinates, feature.properties);
         });
 
-        // 点击多点 Cluster 聚合圈：每次平缓放大 2 个层级
         map.on('click', 'clusters', function(e) {
             const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
             if (!features.length) return;
@@ -434,7 +460,6 @@
             });
         });
 
-        // 点击单点 Cluster 假圈：每次平缓放大 1.5 个层级
         map.on('click', 'single-point-as-cluster', function(e) {
             if (!e.features || !e.features.length) return;
 
@@ -446,15 +471,13 @@
             });
         });
 
-        // 点击空白处收起弹窗
         map.on('click', function(e) {
             const features = map.queryRenderedFeatures(e.point, { layers: ['unclustered-point-outer', 'clusters', 'single-point-as-cluster'] });
-            if (!features.length) {
-                closeBottomSheet();
+            if (!features.length && currentPopup) {
+                currentPopup.remove();
             }
         });
 
-        // Hover 悬浮标签
         map.on('mouseenter', 'unclustered-point-outer', function(e) {
             map.getCanvas().style.cursor = 'pointer';
             const features = e.features[0];
