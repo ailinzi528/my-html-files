@@ -1,400 +1,447 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
+<html lang="zh-CN">
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Map with Popup, Caption, Clustering, and Custom SVG Icon</title>
-
-    <style>
-
-        body, html { margin: 0; padding: 0; height: 100%; }
-
-        #map { width: 100%; height: 100vh; }
-
-        .caption {
-
-            position: absolute;
-
-            background: rgba(255, 255, 255, 0.8);
-
-            padding: 5px;
-
-            border-radius: 3px;
-
-            color: #000;
-
-            font-size: 14px;
-
-            font-weight: bold;
-
-            text-align: center;
-
-            pointer-events: none;
-
-            visibility: hidden;
-
-            white-space: nowrap;
-
-            z-index: 10;
-
-            font: 12px/20px 'Open Sans', sans-serif;
-
-        }
-
-    </style>
-
+    <title>Map with Bottom Panel</title>
+    
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
-
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css' rel='stylesheet' />
 
-</head>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        #map { width: 100%; height: 100vh; }
 
+        /* 悬浮标签 (Caption) */
+        .caption {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 4px 8px;
+            border-radius: 4px;
+            color: #333;
+            font-size: 12px;
+            pointer-events: none;
+            visibility: hidden;
+            white-space: nowrap;
+            z-index: 1000;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            transform: translate(-50%, -100%);
+        }
+
+        /* 底部抽屉弹窗 (Bottom Sheet) */
+        .bottom-sheet {
+            position: fixed !important;
+            left: 0 !important;
+            bottom: 0 !important;
+            width: 100% !important;
+            height: 50vh !important;
+            max-height: 500px !important;
+            background-color: #ffffff !important;
+            box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.3) !important;
+            z-index: 999999 !important;
+            
+            transform: translateY(120%) !important;
+            transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1) !important;
+            
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+
+        /* 激活状态 */
+        .bottom-sheet.active {
+            transform: translateY(0%) !important;
+        }
+
+        /* 关闭按钮 */
+        .close-btn {
+            position: absolute;
+            top: 12px;
+            right: 16px;
+            background: #e6e6fa;
+            border: none;
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000000;
+        }
+        .close-btn:hover { background: #dcdcdc; }
+
+        /* 内容布局 */
+        .sheet-content {
+            display: flex;
+            height: 100%;
+            padding: 24px;
+            gap: 28px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+
+        /* 竖图媒体容器：锁定 3:4 宽高比 */
+        .sheet-media {
+            flex: 0 0 auto;
+            height: 100%;           /* 铺满父容器高度 */
+            aspect-ratio: 3 / 4;    /* 强制锁定 3:4 比例，宽度随高度自动计算 */
+            background-color: #f8f8f8;
+            border-radius: 6px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* 图片充填：完全填充不留白 */
+        .sheet-media img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;      /* 完美裁切铺满，消除上下白边 */
+            display: block;
+        }
+
+        .sheet-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .sheet-header-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #111;
+            margin: 0 0 16px 0;
+        }
+
+        .info-row {
+            display: flex;
+            margin-bottom: 10px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .info-label {
+            width: 90px;
+            color: #777;
+            flex-shrink: 0;
+        }
+
+        .info-value {
+            color: #222;
+            flex-grow: 1;
+        }
+
+        .sheet-footer {
+            margin-top: 15px;
+        }
+
+        .detail-btn {
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            border: 1px solid #4a4a8b;
+            color: #4a4a8b;
+            text-align: center;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .detail-btn:hover {
+            background-color: #4a4a8b;
+            color: #fff;
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            .bottom-sheet { height: 70vh !important; }
+            .sheet-content { flex-direction: column; padding: 16px; }
+            .sheet-media { 
+                width: 100%; 
+                height: auto; 
+                max-height: 250px; 
+            }
+        }
+    </style>
+</head>
 <body>
 
 <div id="map"></div>
-
 <div id="caption" class="caption"></div>
 
-
+<div id="bottom-sheet" class="bottom-sheet">
+    <button class="close-btn" id="close-sheet">✕</button>
+    <div class="sheet-content">
+        <div class="sheet-media">
+            <img id="sheet-img" src="" alt="preview">
+        </div>
+        <div class="sheet-info">
+            <div>
+                <h2 id="sheet-title" class="sheet-header-title">标题</h2>
+                <div class="info-row">
+                    <span class="info-label">编号/索引</span>
+                    <span id="sheet-index" class="info-value">-</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">地址/位置</span>
+                    <span id="sheet-add" class="info-value">-</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">描述/详情</span>
+                    <span id="sheet-desc" class="info-value">-</span>
+                </div>
+            </div>
+            <div class="sheet-footer">
+                <a id="sheet-link" href="#" target="_blank" class="detail-btn">More detail</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script>
-
     mapboxgl.accessToken = 'pk.eyJ1IjoiYWlsaW56aTUyOCIsImEiOiJjbHp0ZXQxZ3oyY2JuMnJyNHdxc2xndW94In0.1rfDN-c2Pjk5TztXwd0OLg';
 
-
+    // 📍 切换层级控制点：已更新为 18
+    const SWITCH_ZOOM = 18;
 
     const map = new mapboxgl.Map({
-
         container: 'map',
-
         style: 'mapbox://styles/ailinzi528/cm07xbfvf00dc01om0ggg2fgv',
-
         center: [104.066, 30.650],
-
         zoom: 12
-
     });
 
-
-
     map.addControl(
-
         new mapboxgl.GeolocateControl({
-
-            positionOptions: {
-
-                enableHighAccuracy: true
-
-            },
-
+            positionOptions: { enableHighAccuracy: true },
             trackUserLocation: true,
-
             showUserHeading: true
-
         }),
-
         'top-left'
-
     );
-
-
 
     map.addControl(new mapboxgl.NavigationControl(), 'top-left');
 
-
-
-    map.on('load', function() {
-
-        // Step 1: Load your SVG icon
-
-        map.loadImage('https://files.cargocollective.com/c716192/pin.png', function(error, image) {
-
-            if (error) throw error;
-
-            map.addImage('custom-icon', image);
-
-
-
-            map.addSource('geojson-data', {
-
-                type: 'geojson',
-
-                data: 'wts2024_0825.geojson',
-
-                cluster: true,
-
-                clusterMaxZoom: 14,
-
-                clusterRadius: 80
-
-            });
-
-
-
-            map.addLayer({
-
-                id: 'clusters',
-
-                type: 'circle',
-
-                source: 'geojson-data',
-
-                filter: ['has', 'point_count'],
-
-                paint: {
-
-                    'circle-color': [
-
-                        'step',
-
-                        ['get', 'point_count'],
-
-                        '#ffee00',
-
-                        100,
-
-                        '#ffee00',
-
-                        750,
-
-                        '#ffee00'
-
-                    ],
-
-                    'circle-radius': [
-
-                        'step',
-
-                        ['get', 'point_count'],
-
-                        20,
-
-                        100,
-
-                        30,
-
-                        750,
-
-                        40
-
-                    ]
-
-                }
-
-            });
-
-
-
-            map.addLayer({
-
-                id: 'cluster-count',
-
-                type: 'symbol',
-
-                source: 'geojson-data',
-
-                filter: ['has', 'point_count'],
-
-                layout: {
-
-                    'text-field': '{point_count_abbreviated}',
-
-                    'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-
-                    'text-size': 12
-
-                }
-
-            });
-
-
-
-            map.addLayer({
-
-                id: 'unclustered-point',
-
-                type: 'symbol',
-
-                source: 'geojson-data',
-
-                filter: ['!', ['has', 'point_count']],
-
-                layout: {
-
-                    'icon-image': 'custom-icon',
-
-                    'icon-size': 0.12  // Adjust the size as needed
-
-                }
-
-            });
-
-
-
-            // Add popup and other interactions as before
-
-            map.on('click', 'unclustered-point', function(e) {
-
-                const features = e.features[0];
-
-                const name = features.properties.name || '未命名';
-
-                const img = features.properties.img || '';
-
-                const index = features.properties['1_index'] || '#';
-
-                const link = features.properties['3_link'] || '#';
-
-                const description = features.properties.description || '';
-
-
-
-                new mapboxgl.Popup({ offset: 25 })
-
-                    .setLngLat(e.lngLat)
-
-                    .setHTML(`
-
-                        <div style="font-size: 16px; font-weight: bold; margin-bottom: 10px;">${name}</div>
-
-                        <p style="margin-bottom: 10px;">${index}</p>
-
-                        <p style="margin-bottom: 10px;">${description}</p>
-
-                        <img src="${img}" alt="${name}" style="width: 100%; height: auto; margin-bottom: 10px;">
-
-                        <a href="${link}" target="_blank" style="font: open sans; font-size: 14px; color: #007cbf; display: block; margin-top: 10px;">查看大图</a>
-
-                    `)
-
-                    .addTo(map);
-
-            });
-
-
-
-            map.on('click', 'clusters', function(e) {
-
-                const features = map.queryRenderedFeatures(e.point, {
-
-                    layers: ['clusters']
-
-                });
-
-                const clusterId = features[0].properties.cluster_id;
-
-                map.getSource('geojson-data').getClusterExpansionZoom(
-
-                    clusterId,
-
-                    function(err, zoom) {
-
-                        if (err) return;
-
-
-
-                        map.easeTo({
-
-                            center: features[0].geometry.coordinates,
-
-                            zoom: zoom
-
-                        });
-
-                    }
-
-                );
-
-            });
-
-
-
-            map.on('mouseenter', 'clusters', function() {
-
-                map.getCanvas().style.cursor = 'pointer';
-
-            });
-
-
-
-            map.on('mouseleave', 'clusters', function() {
-
-                map.getCanvas().style.cursor = '';
-
-            });
-
-
-
-            map.on('mouseenter', 'unclustered-point', function(e) {
-
-                const features = e.features[0];
-
-                const name = features.properties.name || '未命名';
-
-                const index = features.properties['1_index'] || '#';
-
-                
-
-                const captionText = `${index} ${name}`;
-
-                const coordinates = e.lngLat;
-
-
-
-                const caption = document.getElementById('caption');
-
-                caption.textContent = captionText;
-
-                caption.style.visibility = 'visible';
-
-                
-
-                const pixelCoords = map.project(coordinates);
-
-                caption.style.left = `${pixelCoords.x}px`;
-
-                caption.style.top = `${pixelCoords.y}px`;
-
-            });
-
-
-
-            map.on('mouseleave', 'unclustered-point', function() {
-
-                const caption = document.getElementById('caption');
-
-                caption.style.visibility = 'hidden';
-
-            });
-
-
-
-            map.on('mouseenter', 'unclustered-point', function() {
-
-                map.getCanvas().style.cursor = 'pointer';
-
-            });
-
-
-
-            map.on('mouseleave', 'unclustered-point', function() {
-
-                map.getCanvas().style.cursor = '';
-
-            });
-
-        });
-
+    const bottomSheet = document.getElementById('bottom-sheet');
+    const closeBtn = document.getElementById('close-sheet');
+
+    let selectedFeatureId = null;
+
+    function openBottomSheet(properties) {
+        document.getElementById('sheet-title').innerText = properties.name || properties['0_name'] || '未命名';
+        document.getElementById('sheet-index').innerText = properties['1_index'] || '-';
+        document.getElementById('sheet-add').innerText = properties.add || '-';
+        document.getElementById('sheet-desc').innerText = properties.description || properties.desc || '-';
+        document.getElementById('sheet-img').src = properties.img || properties.image || '';
+        document.getElementById('sheet-link').href = properties['3_link'] || '#';
+
+        bottomSheet.classList.add('active');
+    }
+
+    function closeBottomSheet() {
+        bottomSheet.classList.remove('active');
+        
+        if (selectedFeatureId !== null) {
+            map.setFeatureState(
+                { source: 'geojson-data', id: selectedFeatureId },
+                { selected: false }
+            );
+            selectedFeatureId = null;
+        }
+    }
+
+    closeBtn.addEventListener('click', closeBottomSheet);
+
+    map.on('dragstart', function() {
+        closeBottomSheet();
     });
 
+    map.on('load', function() {
+        map.addSource('geojson-data', {
+            type: 'geojson',
+            data: 'wts2024_0825.geojson',
+            cluster: true,
+            clusterMaxZoom: 20, // 聚合最大层级提升到 20，适应 18 的临界点
+            clusterRadius: 80,
+            generateId: true
+        });
+
+        // 1. 多点聚合 Cluster 圈圈 (Zoom < 18)
+        map.addLayer({
+            id: 'clusters',
+            type: 'circle',
+            source: 'geojson-data',
+            filter: ['all', ['has', 'point_count'], ['<', ['zoom'], SWITCH_ZOOM]],
+            paint: {
+                'circle-color': '#ffee00',
+                'circle-radius': ['step', ['get', 'point_count'], 20, 100, 30, 750, 40]
+            }
+        });
+
+        // 1-B. 多点聚合数字 (Zoom < 18)
+        map.addLayer({
+            id: 'cluster-count',
+            type: 'symbol',
+            source: 'geojson-data',
+            filter: ['all', ['has', 'point_count'], ['<', ['zoom'], SWITCH_ZOOM]],
+            layout: {
+                'text-field': '{point_count_abbreviated}',
+                'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+                'text-size': 12
+            }
+        });
+
+        // 2. 单点伪装 Cluster 圈圈 (Zoom < 18，显示为数字 1 的黄色大圈)
+        map.addLayer({
+            id: 'single-point-as-cluster',
+            type: 'circle',
+            source: 'geojson-data',
+            filter: ['all', ['!', ['has', 'point_count']], ['<', ['zoom'], SWITCH_ZOOM]],
+            paint: {
+                'circle-color': '#ffee00',
+                'circle-radius': 20
+            }
+        });
+
+        // 2-B. 单点伪装数字 '1'
+        map.addLayer({
+            id: 'single-point-as-cluster-count',
+            type: 'symbol',
+            source: 'geojson-data',
+            filter: ['all', ['!', ['has', 'point_count']], ['<', ['zoom'], SWITCH_ZOOM]],
+            layout: {
+                'text-field': '1',
+                'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+                'text-size': 12
+            }
+        });
+
+        // 3. 独立 Pin 线圈底层 (Zoom >= 18)
+        map.addLayer({
+            id: 'unclustered-point-outer',
+            type: 'circle',
+            source: 'geojson-data',
+            filter: ['all', ['!', ['has', 'point_count']], ['>=', ['zoom'], SWITCH_ZOOM]],
+            paint: {
+                'circle-color': [
+                    'case',
+                    ['boolean', ['feature-state', 'selected'], false],
+                    '#ffee00',
+                    'rgba(255, 255, 255, 0.5)'
+                ],
+                'circle-radius': 20,
+                'circle-stroke-width': [
+                    'case',
+                    ['boolean', ['feature-state', 'selected'], false],
+                    0,
+                    1.5
+                ],
+                'circle-stroke-color': '#ffee00'
+            }
+        });
+
+        // 4. 独立 Pin 中间圆点顶层 (Zoom >= 18)
+        map.addLayer({
+            id: 'unclustered-point-inner',
+            type: 'circle',
+            source: 'geojson-data',
+            filter: ['all', ['!', ['has', 'point_count']], ['>=', ['zoom'], SWITCH_ZOOM]],
+            paint: {
+                'circle-color': [
+                    'case',
+                    ['boolean', ['feature-state', 'selected'], false],
+                    '#ffffff',
+                    '#ffee00'
+                ],
+                'circle-radius': 4.5
+            }
+        });
+
+        // 点击独立线圈 Pin (Zoom >= 18)
+        map.on('click', 'unclustered-point-outer', function(e) {
+            if (!e.features || !e.features.length) return;
+
+            const feature = e.features[0];
+
+            if (selectedFeatureId !== null) {
+                map.setFeatureState(
+                    { source: 'geojson-data', id: selectedFeatureId },
+                    { selected: false }
+                );
+            }
+
+            selectedFeatureId = feature.id;
+            map.setFeatureState(
+                { source: 'geojson-data', id: selectedFeatureId },
+                { selected: true }
+            );
+
+            openBottomSheet(feature.properties);
+        });
+
+        // 点击多点 Cluster 聚合圈
+        map.on('click', 'clusters', function(e) {
+            const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
+            if (!features.length) return;
+
+            const clusterId = features[0].properties.cluster_id;
+            map.getSource('geojson-data').getClusterExpansionZoom(clusterId, function(err, zoom) {
+                if (err) return;
+                map.easeTo({
+                    center: features[0].geometry.coordinates,
+                    zoom: Math.max(zoom, SWITCH_ZOOM)
+                });
+            });
+        });
+
+        // 点击单点 Cluster 假圈
+        map.on('click', 'single-point-as-cluster', function(e) {
+            if (!e.features || !e.features.length) return;
+            map.easeTo({
+                center: e.features[0].geometry.coordinates,
+                zoom: SWITCH_ZOOM
+            });
+        });
+
+        // 点击空白处收起弹窗
+        map.on('click', function(e) {
+            const features = map.queryRenderedFeatures(e.point, { layers: ['unclustered-point-outer', 'clusters', 'single-point-as-cluster'] });
+            if (!features.length) {
+                closeBottomSheet();
+            }
+        });
+
+        // Hover 悬浮标签
+        map.on('mouseenter', 'unclustered-point-outer', function(e) {
+            map.getCanvas().style.cursor = 'pointer';
+            const features = e.features[0];
+            const name = features.properties.name || features.properties['0_name'] || '未命名';
+            const index = features.properties['1_index'] || '';
+            
+            const caption = document.getElementById('caption');
+            caption.textContent = `${index} ${name}`;
+            caption.style.visibility = 'visible';
+            
+            const pixelCoords = map.project(e.lngLat);
+            caption.style.left = `${pixelCoords.x}px`;
+            caption.style.top = `${pixelCoords.y - 22}px`;
+        });
+
+        map.on('mouseleave', 'unclustered-point-outer', function() {
+            map.getCanvas().style.cursor = '';
+            document.getElementById('caption').style.visibility = 'hidden';
+        });
+
+        map.on('mouseenter', 'clusters', function() { map.getCanvas().style.cursor = 'pointer'; });
+        map.on('mouseleave', 'clusters', function() { map.getCanvas().style.cursor = ''; });
+        map.on('mouseenter', 'single-point-as-cluster', function() { map.getCanvas().style.cursor = 'pointer'; });
+        map.on('mouseleave', 'single-point-as-cluster', function() { map.getCanvas().style.cursor = ''; });
+    });
 </script>
-
 </body>
-
-</html> 
-
+</html>
