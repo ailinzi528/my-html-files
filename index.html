@@ -28,7 +28,7 @@
             transform: translate(-50%, -100%);
         }
 
-        /* 底部抽屉弹窗 (Bottom Sheet) */
+        /* 底部抽屉弹窗 (Bottom Sheet) - 无模糊简约背景 */
         .bottom-sheet {
             position: fixed !important;
             left: 0 !important;
@@ -37,7 +37,7 @@
             height: 50vh !important;
             max-height: 500px !important;
             background-color: #ffffff !important;
-            box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.3) !important;
+            box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.15) !important;
             z-index: 999999 !important;
             
             transform: translateY(120%) !important;
@@ -53,12 +53,12 @@
             transform: translateY(0%) !important;
         }
 
-        /* 关闭按钮 */
+        /* 关闭按钮：浅黄底色 */
         .close-btn {
             position: absolute;
             top: 12px;
             right: 16px;
-            background: #e6e6fa;
+            background: #fff8c5;
             border: none;
             width: 32px;
             height: 32px;
@@ -71,7 +71,7 @@
             justify-content: center;
             z-index: 1000000;
         }
-        .close-btn:hover { background: #dcdcdc; }
+        .close-btn:hover { background: #ffee00; }
 
         /* 内容布局 */
         .sheet-content {
@@ -86,8 +86,8 @@
         /* 竖图媒体容器：锁定 3:4 宽高比 */
         .sheet-media {
             flex: 0 0 auto;
-            height: 100%;           /* 铺满父容器高度 */
-            aspect-ratio: 3 / 4;    /* 强制锁定 3:4 比例，宽度随高度自动计算 */
+            height: 100%;
+            aspect-ratio: 3 / 4;
             background-color: #f8f8f8;
             border-radius: 6px;
             overflow: hidden;
@@ -96,12 +96,15 @@
             justify-content: center;
         }
 
-        /* 图片充填：完全填充不留白 */
+        /* 图片铺满与 GPU 加速渲染 */
         .sheet-media img {
             width: 100%;
             height: 100%;
-            object-fit: cover;      /* 完美裁切铺满，消除上下白边 */
+            object-fit: cover;
             display: block;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: high-quality;
+            transform: translateZ(0);
         }
 
         .sheet-info {
@@ -118,54 +121,58 @@
             margin: 0 0 16px 0;
         }
 
+        /* 标题左对齐，具体内容右对齐且标题不折行 */
         .info-row {
             display: flex;
-            margin-bottom: 10px;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
             font-size: 14px;
             line-height: 1.5;
+            gap: 16px;
         }
 
         .info-label {
-            width: 90px;
-            color: #777;
+            color: #666;
             flex-shrink: 0;
+            white-space: nowrap;
+            text-align: left;
         }
 
         .info-value {
-            color: #222;
-            flex-grow: 1;
+            color: #111;
+            text-align: right;
+            word-break: break-word;
         }
 
         .sheet-footer {
             margin-top: 15px;
         }
 
+        /* 详情按钮：黄色主调样式 */
         .detail-btn {
             display: block;
             width: 100%;
             padding: 10px 0;
-            border: 1px solid #4a4a8b;
-            color: #4a4a8b;
+            border: 1.5px solid #ffee00;
+            background-color: #ffee00;
+            color: #111;
             text-align: center;
             text-decoration: none;
             font-size: 14px;
-            font-weight: 500;
+            font-weight: 600;
             transition: all 0.2s ease;
+            border-radius: 4px;
         }
         .detail-btn:hover {
-            background-color: #4a4a8b;
-            color: #fff;
+            background-color: #e6d700;
+            border-color: #e6d700;
         }
 
-        /* 移动端适配 */
         @media (max-width: 768px) {
             .bottom-sheet { height: 70vh !important; }
             .sheet-content { flex-direction: column; padding: 16px; }
-            .sheet-media { 
-                width: 100%; 
-                height: auto; 
-                max-height: 250px; 
-            }
+            .sheet-media { width: 100%; height: auto; max-height: 250px; }
         }
     </style>
 </head>
@@ -182,17 +189,17 @@
         </div>
         <div class="sheet-info">
             <div>
-                <h2 id="sheet-title" class="sheet-header-title">标题</h2>
+                <h2 id="sheet-title" class="sheet-header-title">Title</h2>
                 <div class="info-row">
-                    <span class="info-label">编号/索引</span>
+                    <span class="info-label">编号 / Index</span>
                     <span id="sheet-index" class="info-value">-</span>
                 </div>
                 <div class="info-row">
-                    <span class="info-label">地址/位置</span>
+                    <span class="info-label">位置 / Location</span>
                     <span id="sheet-add" class="info-value">-</span>
                 </div>
                 <div class="info-row">
-                    <span class="info-label">描述/详情</span>
+                    <span class="info-label">描述 / Description</span>
                     <span id="sheet-desc" class="info-value">-</span>
                 </div>
             </div>
@@ -206,7 +213,7 @@
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiYWlsaW56aTUyOCIsImEiOiJjbHp0ZXQxZ3oyY2JuMnJyNHdxc2xndW94In0.1rfDN-c2Pjk5TztXwd0OLg';
 
-    // 📍 切换层级控制点：已更新为 18
+    // 📍 临界切换层级：18
     const SWITCH_ZOOM = 18;
 
     const map = new mapboxgl.Map({
@@ -237,7 +244,35 @@
         document.getElementById('sheet-index').innerText = properties['1_index'] || '-';
         document.getElementById('sheet-add').innerText = properties.add || '-';
         document.getElementById('sheet-desc').innerText = properties.description || properties.desc || '-';
-        document.getElementById('sheet-img').src = properties.img || properties.image || '';
+
+        let rawImgUrl = properties.img || properties.image || '';
+
+        // 自动拦截并重构 Are.na 链接的图片配置
+        if (rawImgUrl.includes('images.are.na')) {
+            try {
+                const base64Str = rawImgUrl.split('images.are.na/')[1];
+                let jsonStr = atob(base64Str);
+                let jsonObj = JSON.parse(jsonStr);
+
+                if (jsonObj.edits && jsonObj.edits.resize) {
+                    jsonObj.edits.resize.width = 1200;
+                    jsonObj.edits.resize.height = 1200;
+                }
+                if (jsonObj.edits && jsonObj.edits.jpeg) {
+                    jsonObj.edits.jpeg.quality = 95;
+                }
+                if (jsonObj.edits && jsonObj.edits.webp) {
+                    jsonObj.edits.webp.quality = 95;
+                }
+
+                const newBase64 = btoa(JSON.stringify(jsonObj));
+                rawImgUrl = `https://images.are.na/${newBase64}`;
+            } catch (e) {
+                console.log('图片链接解析升级跳过:', e);
+            }
+        }
+
+        document.getElementById('sheet-img').src = rawImgUrl;
         document.getElementById('sheet-link').href = properties['3_link'] || '#';
 
         bottomSheet.classList.add('active');
@@ -257,17 +292,19 @@
 
     closeBtn.addEventListener('click', closeBottomSheet);
 
-    map.on('dragstart', function() {
-        closeBottomSheet();
-    });
+    // 🌟 平移移动 (drag) 时保持弹窗打开；仅在滚动/缩放/旋转时自动关闭弹窗
+    map.on('zoomstart', closeBottomSheet);
+    map.on('wheel', closeBottomSheet);
+    map.on('pitchstart', closeBottomSheet);
+    map.on('rotatestart', closeBottomSheet);
 
     map.on('load', function() {
         map.addSource('geojson-data', {
             type: 'geojson',
             data: 'wts2024_0825.geojson',
             cluster: true,
-            clusterMaxZoom: 20, // 聚合最大层级提升到 20，适应 18 的临界点
-            clusterRadius: 80,
+            clusterMaxZoom: SWITCH_ZOOM - 1, // 17
+            clusterRadius: 100,              // 保持大聚合半径，防止离散过早
             generateId: true
         });
 
@@ -384,27 +421,28 @@
             openBottomSheet(feature.properties);
         });
 
-        // 点击多点 Cluster 聚合圈
+        // 点击多点 Cluster 聚合圈：每次平缓放大 2 个层级
         map.on('click', 'clusters', function(e) {
             const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
             if (!features.length) return;
 
-            const clusterId = features[0].properties.cluster_id;
-            map.getSource('geojson-data').getClusterExpansionZoom(clusterId, function(err, zoom) {
-                if (err) return;
-                map.easeTo({
-                    center: features[0].geometry.coordinates,
-                    zoom: Math.max(zoom, SWITCH_ZOOM)
-                });
+            const currentZoom = map.getZoom();
+            map.easeTo({
+                center: features[0].geometry.coordinates,
+                zoom: Math.min(currentZoom + 2, SWITCH_ZOOM),
+                duration: 800
             });
         });
 
-        // 点击单点 Cluster 假圈
+        // 点击单点 Cluster 假圈：每次平缓放大 1.5 个层级
         map.on('click', 'single-point-as-cluster', function(e) {
             if (!e.features || !e.features.length) return;
+
+            const currentZoom = map.getZoom();
             map.easeTo({
                 center: e.features[0].geometry.coordinates,
-                zoom: SWITCH_ZOOM
+                zoom: Math.min(currentZoom + 1.5, SWITCH_ZOOM),
+                duration: 600
             });
         });
 
