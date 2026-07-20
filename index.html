@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map with Auto-Contrast Text Popup</title>
+    <title>Map with Minimal Hover Popup</title>
     
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css' rel='stylesheet' />
@@ -49,7 +49,7 @@
             aspect-ratio: 3 / 4;
             text-decoration: none;
             overflow: hidden;
-            border-radius: 2px;
+            border-radius: 3px;
             cursor: pointer;
         }
 
@@ -65,23 +65,27 @@
             will-change: filter, transform;
         }
 
+        /* 模糊轻量化（3.5px）+ 微放缩 */
         .popup-card-link:hover .popup-bg-img {
-            filter: blur(5px);
-            transform: scale(1.00);
+            filter: blur(3.5px);
+            transform: scale(1.0);
         }
 
-        /* 遮罩文字层：默认偏左淡出 */
+        /* 遮罩文字层：无任何背景遮罩，完全透明 */
         .popup-overlay {
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            padding: 24px 20px;
+            padding: 20px;
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
+            align-items: flex-start;
+            background: transparent !important;
+            
             opacity: 0;
-            transform: translateX(-30px);
-            transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            transform: translateX(-8px);
+            transition: opacity 0.5s ease 0.15s, transform 0.5s ease 0.15s;
             pointer-events: none;
         }
 
@@ -90,63 +94,68 @@
             transform: translateX(0);
         }
 
-        /* 🌟 1. 当图片偏暗时：极简纯白字，无阴影无黑描边 */
-        .popup-overlay.dark-bg {
-            color: #ffffff;
-            background: rgba(255, 255, 255, 0.1); /* 极其轻微的底色仅作提亮区分 */
+        /* 偏暗图片：纯白字 (#ffffff) */
+        .popup-overlay.dark-bg,
+        .popup-overlay.dark-bg .popup-index,
+        .popup-overlay.dark-bg .popup-title,
+        .popup-overlay.dark-bg .popup-meta,
+        .popup-overlay.dark-bg .popup-meta-item { 
+            color: #ffffff !important; 
         }
-        .popup-overlay.dark-bg .popup-index { color: rgba(255, 255, 255, 0.9); }
-        .popup-overlay.dark-bg .popup-title { color: #ffffff; text-shadow: none; }
-        .popup-overlay.dark-bg .popup-meta { color: rgba(255, 255, 255, 0.85); text-shadow: none; }
-        .popup-overlay.dark-bg .popup-meta-label { color: rgba(255, 255, 255, 0.6); }
 
-        /* 🌟 2. 当图片偏亮时：纯黑字 + 清爽半透明白背景 */
-        .popup-overlay.light-bg {
-            color: #111111;
-            background: rgba(255, 255, 255, 0.1); /* 通透的清爽白色底 */
+        /* 偏亮图片：纯黑字 (#000000) */
+        .popup-overlay.light-bg,
+        .popup-overlay.light-bg .popup-index,
+        .popup-overlay.light-bg .popup-title,
+        .popup-overlay.light-bg .popup-meta,
+        .popup-overlay.light-bg .popup-meta-item { 
+            color: #000000 !important; 
         }
-        .popup-overlay.light-bg .popup-index { color: rgba(0, 0, 0, 1); }
-        .popup-overlay.light-bg .popup-title { color: #111111; text-shadow: none; }
-        .popup-overlay.light-bg .popup-meta { color: rgba(0, 0, 0, 1); text-shadow: none; }
-        .popup-overlay.light-bg .popup-meta-label { color: rgba(0, 0, 0, 1); }
 
+        /* 编号：普通粗细 */
         .popup-index {
-            font-size: 20px;
-            font-weight: 500;
-            letter-spacing: 0.5px;
+            font-size: 30px;
+            font-weight: normal;
+            letter-spacing: 0px;
+            line-height: 1.2;
             margin-bottom: 6px;
         }
 
+        /* 标题：普通粗细 (font-weight: 400)，限制 2 行省略 */
         .popup-title {
-            font-size: 22px;
-            font-weight: 700;
-            line-height: 1.25;
-            margin: 0 0 16px 0;
+            font-size: 30px;
+            font-weight: normal;
+            line-height: 1.2;
+            letter-spacing: 0px;
+            margin: 0 0 35px 0;
+            text-align: left;
+            
             display: -webkit-box;
-            -webkit-line-clamp: 3;
+            -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
             overflow: hidden;
-            text-shadow: none !important; /* 彻底移除阴影/描边 */
+            text-overflow: ellipsis;
         }
 
+        /* 描述与位置信息：无标题前缀，普通字重，各限制 1 行省略 */
         .popup-meta {
-            margin-top: auto;
-            font-size: 13px;
-            line-height: 1.6;
-            text-shadow: none !important;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 400;
+            margin-top: 0;
+            text-align: left;
+            width: 100%;
         }
 
-        .popup-meta-row {
-            display: flex;
-            gap: 8px;
+        .popup-meta-item {
+            font-weight: 400;
             margin-bottom: 2px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
-        .popup-meta-label {
-            flex-shrink: 0;
-        }
-
-        /* 关闭按钮：极简清爽风格 */
+        /* 关闭按钮 */
         .mapboxgl-popup-close-button {
             font-size: 18px;
             color: #666 !important;
@@ -154,7 +163,6 @@
             z-index: 10;
             background: transparent !important;
             border-radius: 0 8px 0 8px;
-            text-shadow: none !important;
         }
         .mapboxgl-popup-close-button:hover {
             background-color: rgba(0, 0, 0, 0.08) !important;
@@ -193,7 +201,7 @@
     let currentPopup = null;
     let selectedFeatureId = null;
 
-    // 计算图片平均亮度的算法函数
+    // 🌟 计算图片【左上角 40% 区域】平均亮度的算法函数
     function getImageBrightness(imgElement, callback) {
         const img = new Image();
         img.crossOrigin = "Anonymous";
@@ -203,12 +211,23 @@
             const canvas = document.createElement('canvas');
             const ctx = canvas.getContext('2d');
             
-            canvas.width = 50;
-            canvas.height = 50;
-            ctx.drawImage(img, 0, 0, 50, 50);
+            const sampleWidth = 50;
+            const sampleHeight = 50;
+            canvas.width = sampleWidth;
+            canvas.height = sampleHeight;
+
+            // 📍 仅截取图片左上角 40% 宽高的像素区域
+            const cropW = (img.naturalWidth || img.width) * 0.4;
+            const cropH = (img.naturalHeight || img.height) * 0.4;
+
+            ctx.drawImage(
+                img, 
+                0, 0, cropW, cropH,
+                0, 0, sampleWidth, sampleHeight
+            );
 
             try {
-                const imageData = ctx.getImageData(0, 0, 50, 50);
+                const imageData = ctx.getImageData(0, 0, sampleWidth, sampleHeight);
                 const data = imageData.data;
                 let r, g, b, avg;
                 let colorSum = 0;
@@ -221,7 +240,7 @@
                     colorSum += avg;
                 }
 
-                const brightness = Math.floor(colorSum / (50 * 50));
+                const brightness = Math.floor(colorSum / (sampleWidth * sampleHeight));
                 callback(brightness);
             } catch (e) {
                 console.log('图片跨域采样降级:', e);
@@ -267,8 +286,8 @@
 
         const title = properties.name || properties['0_name'] || '未命名';
         const index = properties['1_index'] ? `[ ${properties['1_index']} ]` : '';
-        const add = properties.add || '-';
-        const desc = properties.description || properties.desc || '-';
+        const add = properties.add || '';
+        const desc = properties.description || properties.desc || '';
         const link = properties['3_link'] || '#';
 
         const popupHTML = `
@@ -278,14 +297,8 @@
                     ${index ? `<div class="popup-index">${index}</div>` : ''}
                     <h3 class="popup-title">${title}</h3>
                     <div class="popup-meta">
-                        <div class="popup-meta-row">
-                            <span class="popup-meta-label">Location:</span>
-                            <span>${add}</span>
-                        </div>
-                        <div class="popup-meta-row">
-                            <span class="popup-meta-label">Desc:</span>
-                            <span>${desc}</span>
-                        </div>
+                        ${add ? `<div class="popup-meta-item">${add}</div>` : ''}
+                        ${desc ? `<div class="popup-meta-item">${desc}</div>` : ''}
                     </div>
                 </div>
             </a>
